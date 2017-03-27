@@ -1,0 +1,24 @@
+
+.total-area table{border-top: 1px #eeeeee solid;}
+.total-area td{border-left: 1px #eeeeee solid;border-bottom: 1px #eeeeee solid;line-height: 1rem;padding: 0 0.5rem;}
+.total-area label{color: #fa7a79;font-size: 0.45rem;}
+
+.lable-icon1{background: url('../../../images/obd/obd_dt_info_icon1.png') no-repeat left;}
+.lable-icon2{background: url('../../../images/obd/obd_dt_info_icon2.png') no-repeat left;}
+.lable-icon3{background: url('../../../images/obd/obd_dt_info_icon3.png') no-repeat left;}
+.lable-icon4{background: url('../../../images/obd/obd_dt_info_icon4.png') no-repeat left;}
+.lable-icon5{background: url('../../../images/obd/obd_dt_info_icon5.png') no-repeat left;}
+.lable-icon6{background: url('../../../images/obd/obd_dt_info_icon6.png') no-repeat left;}
+.lable-icon{color: #666666;text-indent: 0.9rem;background-size: 0.5rem;font-size: 0.4rem;}
+
+.driver-map-container{margin:0 15px;height: 3rem;}
+
+.driver-data-item .icon1{background: url('../../../images/obd/obd_dt_icon7_1.png') no-repeat left;background-size:0.5rem;}
+.driver-data-item .icon2{background: url('../../../images/obd/obd_dt_icon8_1.png') no-repeat left;background-size:0.5rem;}
+.driver-data-item .icon3{background: url('../../../images/obd/obd_dt_icon9_1.png') no-repeat left;background-size:0.5rem;}
+.driver-data-item .icon4{background: url('../../../images/obd/obd_dt_icon10_1.png') no-repeat left;background-size:0.5rem;}
+.driver-data-item .icon5{background: url('../../../images/obd/obd_dt_icon10_1.png') no-repeat left;background-size:0.5rem;}
+.driver-data-item .icon6{background: url('../../../images/obd/obd_dt_icon11_1.png') no-repeat left;background-size:0.5rem;}
+
+.loading-tip{top: 8.5rem;height: 2rem;background-size: 3rem;}
+.loading-tip-text{top: 1.5rem;font-size: 0.44rem;}

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<link rel="stylesheet" href="css/CarInspectProcess.css" />
+		<title></title>
+		<script type="text/javascript" src="../../js/common/jquery.js"></script>
+		<script type="text/javascript" src="../../js/common/ai-base.js"></script>
+		<script type="text/javascript" src="../../js/mui.min.js" ></script>
+		<script type="text/javascript" src="js/CarInspectProcess.js"></script>
+	</head>
+
+	<body>
+		<div class="x-panel-top">
+			<div class="x-panel-top-left" onclick="mui.back()">
+				<span class="left-icon"></span>
+			</div>
+			<div class="x-panel-top-center">
+				<div class="x-title-bar">
+					车辆体检
+				</div>
+			</div>
+			<div class="x-panel-top-right">
+			</div>
+		</div>
+		<div class="x-panel-content">
+			<div class="inspect-top bg1">
+				<div class="inspect-check-animate">
+					<div class="inspect-check-bg">
+						<img class="inspect-check-point" src='../../images/obd/obd_check_score_point.png' width="100%"/>
+					</div>
+				</div>
+				<div class="inspect-progress-area">
+					<div class="inspect-label">
+						<label class="unit pd-none">我们正在检测您爱车的9大系统</label>
+					</div>
+					<div class="font3 progress-text">正在更新诊断数据...</div>
+					<div class="inspect-progress-bar">
+						<div class="mui-progressbar inspect-progress">
+							<span></span>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="gray-blank10"></div>
+			<div class="inspect-car-chart">
+				<img class="inspect-check-scan" src='../../images/obd/inspect-check-car-scan.gif' />
+			</div>
+
+			<div class="common-title bg2 bd-none faults-title">检测详情</div>
+			<div class="inspect-faults-area">
+				<div class="faults-items"></div>
+			</div>
+		</div>
+
+	</body>
+
+</html>

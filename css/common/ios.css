@@ -1,0 +1,12 @@
+/*IOS状态栏*/
+.ios-body .x-panel-top{height: 1.8rem;}
+.ios-body .x-panel-top .left-icon{margin-top: 0.83rem;}
+.ios-body .x-panel-top .mui-icon{margin-top:0.83rem}
+.ios-body .x-panel-top .x-title-bar{margin-top:0.53rem}
+.ios-body .x-panel-content,.ios-body .x-panel-content-full{margin-top: 1.8rem;}
+.ios-body .button-right{margin-top: 0.75rem;}
+.ios-body .top-tap{top: 1.8rem;}
+.ios-body .driver-analysis-tab{margin-top: 0.75rem;}
+.ios-body .selected-area{top: 1.8rem;}
+
+.ios-body .scroll-wrapper{top: 1.8rem;}

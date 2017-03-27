@@ -1,0 +1,44 @@
+@import url("../../../css/common/base.css");
+
+.date-selector{height: 1.2rem;line-height: 1.3rem;font-size: 0.4rem;color: #4C4C4C;}
+.date-selector img{width: 0.7rem;}
+.now-date{font-size: 0.44rem;}
+
+.total-area table{border-top: 1px #eeeeee solid;}
+.total-area td{border-left: 1px #eeeeee solid;border-bottom: 1px #eeeeee solid;padding: 0rem 0.5rem;line-height: 1rem;}
+.total-area label{color: #fc3434;font-size: 0.45rem;}
+
+
+.total-area-mile{background: url('../../../images/obd/obd_dt_icon1_1.png') no-repeat left;}
+.total-area-speedup{background: url('../../../images/obd/obd_dt_icon2_1.png') no-repeat left;}
+.total-area-time{background: url('../../../images/obd/obd_dt_icon3_1.png') no-repeat left;}
+.total-area-speeddown{background: url('../../../images/obd/obd_dt_icon4_1.png') no-repeat left;}
+.total-area-oil{background: url('../../../images/obd/obd_dt_icon5_1.png') no-repeat left;}
+.total-area-turn{background: url('../../../images/obd/obd_dt_icon6_1.png') no-repeat left;}
+.total-area .lable-icon{background-size:0.5rem;text-indent: 0.7rem;color: #666666;font-size: 0.44rem;}
+
+.driver-list{background: #ffffff;overflow: auto;position: absolute;width: 100%;top: 4.8rem;bottom: 0;}
+.ios-body .driver-list{top: 5.22rem;}
+.driver-item{padding:10px 0;border-bottom: 1px #eeeeee solid;}
+
+.start-point,.end-point{height: 1.3rem;}
+
+.start-icon{background:url('../../../images/obd/obd_drivetrack_item_start_point.png') no-repeat center bottom;}
+.end-icon{background:url('../../../images/obd/obd_drivetrack_item_end_point.png') no-repeat center top;}
+.start-icon,.end-icon{background-size: 1.1rem;}
+.driver-detail{height: 2.8rem;}
+.driver-detail-icon{background:url('../../../images/obd/obd_drivetrack_item_line_point.png') repeat-y center;background-size: 0.2rem; }
+.driver-detail-area{background:#eeeeee;padding-top: 0.2rem;}
+.driver-detail-area td{background-size: 0.5rem;text-indent: 1rem;padding-top: 0.15rem;background-position-x: 0.35rem;font-size: 0.35rem;color:#666666;height: 0.8rem;}
+.start-time,.end-time{line-height: 0.6rem;font-size: 0.4rem;}
+.end-time{margin-top: 0.2rem;}
+.address{overflow: hidden; white-space: nowrap; text-overflow: ellipsis;font-size: 0.44rem;}
+.detail-text{color: #666666;font-weight: normal;font-size: 0.44rem;}
+.driver-detail-time{background:url('../../../images/obd/obd_dt_icon7_1.png') no-repeat left;}
+.driver-detail-mile{background:url('../../../images/obd/obd_dt_icon8_1.png') no-repeat left;}
+.driver-detail-speed{background:url('../../../images/obd/obd_dt_icon9_1.png') no-repeat left;}
+.driver-detail-oil{background:url('../../../images/obd/obd_dt_icon10_1.png') no-repeat left;}
+.driver-detail-cost{background:url('../../../images/obd/obd_dt_icon11_1.png') no-repeat left;}
+.driver-detail-max-speed{background:url('../../../images/obd/obd_dt_icon12_1.png') no-repeat left;}
+
+.error-tip,.loading-tip{top:9rem}

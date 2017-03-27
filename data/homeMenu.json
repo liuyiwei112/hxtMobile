@@ -1,0 +1,164 @@
+[
+  {
+    "id": 1,
+    "version": "1.1.0",
+    "menuName": "智慧保养",
+    "menuPic": "../images/menus/menu03.png",
+    "isShow": 1,
+    "className": "maintain/maintain01.html",
+    "menuSeq": 6
+  },
+  {
+    "id": 2,
+    "version": "1.1.0",
+    "menuName": "事故定损",
+    "menuPic": "../images/menus/menu09.png",
+    "isShow": 1,
+    "className": "maintain/shigu01.html",
+    "menuSeq": 6
+  },
+  {
+    "id": 1,
+    "version": "1.1.0",
+    "menuName": "精准救援",
+    "menuPic": "../images/menus/menu27.png",
+    "isShow": 1,
+    "className": "rescueMain.html",
+    "menuSeq": 1
+  },
+  {
+    "id": 10,
+    "version": "1.1.0",
+    "menuName": "违章查询",
+    "menuPic": "../images/menus/menu07.png",
+    "isShow": 1,
+    "className": "tools/illegalQuery.html",
+    "menuSeq": 10
+  },
+  {
+    "id": 7,
+    "version": "1.1.0",
+    "menuName": "电瓶卫士",
+    "menuPic": "../images/menus/menu04.png",
+    "isShow": 1,
+    "className": "maintain/battary01.html",
+    "menuSeq": 7
+  },
+  {
+    "id": 3,
+    "version": "1.1.0",
+    "menuName": "轮胎宝贝",
+    "menuPic": "../images/menus/menu02.png",
+    "isShow": 1,
+    "className": "maintain/tyreChange01.html",
+    "menuSeq": 3
+  },
+  {
+    "id": 13,
+    "version": "1.1.0",
+    "menuName": "爱车保镖",
+    "menuPic": "../images/menus/menu21.png",
+    "isShow": 1,
+    "className": "obd/carAlert.html",
+    "menuSeq": 13
+  },
+  {
+    "id": 14,
+    "version": "1.1.0",
+    "menuName": "驾驶分析",
+    "menuPic": "../images/menus/menu22.png",
+    "isShow": 1,
+    "className": "obd/DriverAnalysisList.html",
+    "menuSeq": 14
+  },
+  {
+    "id": 3,
+    "version": "1.1.0",
+    "menuName": "美容装潢",
+    "menuPic": "../images/menus/menu10.png",
+    "isShow": 1,
+    "className": "maintain/meirong01.html",
+    "menuSeq": 3
+  },
+  {
+    "id": 8,
+    "version": "1.1.0",
+    "menuName": "周边加油",
+    "menuPic": "../images/menus/menu05.png",
+    "isShow": 1,
+    "className": "map/surroundingMap.html",
+    "menuSeq": 8
+  },
+  {
+    "id": 9,
+    "version": "1.1.0",
+    "menuName": "周边停车",
+    "menuPic": "../images/menus/menu06.png",
+    "isShow": 1,
+    "className": "map/surroundingMap.html",
+    "menuSeq": 9
+  },
+  {
+    "id": 20,
+    "version": "1.1.0",
+    "menuName": "活动推广",
+    "menuPic": "../images/menus/menu08.png",
+    "isShow": 1,
+    "className": "tools/acitivity.html",
+    "menuSeq": 18
+  },
+  {
+    "id": 16,
+    "version": "1.1.0",
+    "menuName": "车辆体检",
+    "menuPic": "../images/menus/menu26.png",
+    "isShow": 1,
+    "className": "obd/CarInspectResult.html",
+    "menuSeq": 16
+  },
+  {
+    "id": 17,
+    "version": "1.1.0",
+    "menuName": "应急电话",
+    "menuPic": "../images/menus/menu23.png",
+    "isShow": 1,
+    "className": "tools/emergencyTelephone.html",
+    "menuSeq": 17
+  },
+  {
+    "id": 19,
+    "version": "1.1.0",
+    "menuName": "续保计算",
+    "menuPic": "../images/menus/menu28.png",
+    "isShow": 1,
+    "className": "tools/xubao.html",
+    "menuSeq": 18
+  },
+  {
+    "id": 18,
+    "version": "1.1.0",
+    "menuName": "代驾服务",
+    "menuPic": "../images/menus/menu24.png",
+    "isShow": 1,
+    "className": "tools/eDaijia.html",
+    "menuSeq": 18
+  },
+  {
+    "id": 15,
+    "version": "1.1.0",
+    "menuName": "驾驶统计",
+    "menuPic": "../images/menus/menu25.png",
+    "isShow": 1,
+    "className": "obd/DriverAnalysisTotal.html",
+    "menuSeq": 15
+  },
+  {
+    "id": 21,
+    "version": "1.1.0",
+    "menuName": "专家咨询",
+    "menuPic": "../images/menus/menu29.png",
+    "isShow": 1,
+    "className": "",
+    "menuSeq": 18
+  }
+]

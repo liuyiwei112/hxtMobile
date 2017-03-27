@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1,user-scalable=no">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="#FC3434">
+		<link rel="stylesheet" href="../../css/mui/icons-extra.css" />
+		<link rel="stylesheet" href="../../css/mui/mui.picker.min.css" />
+		<link rel="stylesheet" href="css/battary02.css" />
+		<title></title>
+		<script type="text/javascript" src="../../js/common/jquery.js"></script>
+		<script type="text/javascript" src="../../js/common/ai-base.js" ></script>
+		<script type="text/javascript" src="../../js/mui.min.js" ></script>
+		<script type="text/javascript" src="js/battary02.js"></script>
+	</head>
+
+	<body>
+
+		<div class="x-panel-top">
+			<div class="x-panel-top-left" onclick="mui.back()">
+				<span class="mui-icon mui-icon-back"></span>
+			</div>
+			<div class="x-panel-top-center">
+				<div class="x-title-bar">
+					电瓶卫士
+				</div>
+			</div>
+			<div class="x-panel-top-right">
+
+			</div>
+		</div>
+		<div class="x-panel-content-full">
+			<div class="progress-title maintain-progress"></div>
+			<div class="banner-panel">
+				<div class="banner-text banner-text-shop height100">优选服务门店</div>
+			</div>
+			<div class="map-area" id="map_area">
+
+			</div>
+			<div class="banner-panel">
+				<div class="banner-text banner-text-product height100 flex-div">
+					<div class="flex-element-no-padding">商品列表（共1项）</div>
+					<div class="flex-element text-right">合计：<label class="now-price-marker">¥</label><label class="now-price">373</label></div>
+				</div>
+			</div>
+
+			<div class="product-panel">
+				<div class="repair-item">
+					<div class="banner-panel" style="border-top: 0;">
+						<div class="banner-text">电瓶</div>
+					</div>
+					<div class="product-item">
+						<div class="product-title" style="background-image: url(../../images/main-item-01.png);">风帆（规格：80D26L）</div>
+						<div class="product-detail">
+							<div class="product-img">
+								<img src="../../images/product/battary.png" />
+							</div>
+							<div class="product-desc">
+								<div class="height50 product-name">风帆 80D26L</div>
+								<div class="height50">
+									<label class="now-price-marker">¥</label><label class="now-price">392</label>
+									<label class="pre-price-marker">¥</label><label class="pre-price">414</label>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+			</div>
+			<div class="blank2"></div>
+			<div class="select-date-panel">
+
+				<div class="banner-panel flex-div">
+					<div class="banner-text banner-text-date flex-element-no-padding">预约到店时间</div>
+					<div class="flex-element-no-padding text-right selected-date">2016-08-01(周一) 10:15</div>
+				</div>
+				<div class="date-panel flex-div">
+					<div class="flex-element-no-padding">
+						<div class="date-element">08-11</div>
+						<div class="week-element">(今天)</div>
+					</div>
+					<div class="flex-element-no-padding date-selected">
+						<div class="date-element">08-12</div>
+						<div class="week-element">(明天)</div>
+					</div>
+					<div class="flex-element-no-padding">
+						<div class="date-element">08-13</div>
+						<div class="week-element">(后天)</div>
+					</div>
+					<div class="flex-element-no-padding">
+						<div class="date-element">08-14</div>
+						<div class="week-element">(周日)</div>
+					</div>
+					<div class="flex-element-no-padding">
+						<span class="mui-icon-extra mui-icon-extra-calendar"></span>
+					</div>
+				</div>
+				<div class="date-list-panel bg1">
+					<div class="date-item flex-div">
+						<div class="flex-element-no-padding date-detail">08:30-09:30</div>
+						<div class="flex-element-no-padding">
+							<label class="now-price-marker">¥</label> <label class="now-price">324</label> <label class="unit">(6.8折)</label>
+						</div>
+						<div class="flex-element-no-padding">
+							<div class="button button-red">预约时间</div>
+						</div>
+					</div>
+					<div class="date-item flex-div">
+						<div class="flex-element-no-padding date-detail">09:30-10:30</div>
+						<div class="flex-element-no-padding">
+							<label class="now-price-marker">¥</label> <label class="now-price">324</label> <label class="unit">(6.8折)</label>
+						</div>
+						<div class="flex-element-no-padding">
+							<div class="button button-red-reverse">预约时间</div>
+						</div>
+					</div>
+					<div class="date-item flex-div">
+						<div class="flex-element-no-padding date-detail">10:30-11:30</div>
+						<div class="flex-element-no-padding">
+							<label class="now-price-marker">¥</label> <label class="now-price">324</label> <label class="unit">(6.8折)</label>
+						</div>
+						<div class="flex-element-no-padding">
+							<div class="button button-red-reverse">预约时间</div>
+						</div>
+					</div>
+					<div class="date-item flex-div">
+						<div class="flex-element-no-padding date-detail">13:30-14:30</div>
+						<div class="flex-element-no-padding">
+							<label class="now-price-marker">¥</label> <label class="now-price">324</label> <label class="unit">(6.8折)</label>
+						</div>
+						<div class="flex-element-no-padding">
+							<div class="button button-red-reverse">预约时间</div>
+						</div>
+					</div>
+				</div>
+
+			</div>
+			<div class="blank10"></div>
+		</div>
+		<div class="x-panel-bottom flex-div bottom-account">
+			<div class="fl width15 call-center text-center">
+				<span class="icon call-center-icon"></span>
+				<label class="unit pd-none">客服</label>
+			</div>
+			<div class="fl width35 total-panel">
+				<div class="height50 total-price">
+					合计：<label>¥</label><label>500</label>
+				</div>
+				<div class="height50 total-pre-price">
+					<label class="pre-price-marker" style="padding: 0;">¥</label><label class="pre-price">600</label>
+				</div>
+			</div>
+			<div class="fl width50">
+				<div class="button button-red set-account">去结算</div>
+			</div>
+		</div>
+
+	</body>
+
+</html>

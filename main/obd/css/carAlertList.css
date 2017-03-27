@@ -1,0 +1,15 @@
+@import url("../../../css/common/base.css");
+
+
+.car-alert-detail{padding: 0.23438rem 0.46875rem;margin-bottom: 0.1rem;background: #ffffff;border-bottom: 1px #cccccc solid;height: 1.6rem;}
+.car-alert-detail img{width: 0.9rem;}
+.alert-desc{color: #fc3434;font-weight: 500;font-size: 0.4375rem;height: 0.5rem;line-height: 0.5rem;}
+.alert-date{color: #fc3434;font-size: 0.34375rem;padding-top: 0.15625rem;font-weight: 300;}
+.car-alert-not-read-list,.car-alert-read-list{margin-top: 1.2rem;}
+.car-alert-read-list .alert-desc{color: #666666}
+.car-alert-read-list .alert-date{color: #a3a3a3}
+
+.error-tip{top:4rem}
+
+
+

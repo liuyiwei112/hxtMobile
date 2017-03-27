@@ -1,0 +1,10 @@
+@import url("../../../css/common/base.css");
+
+.top-banner{background: #eeeeee;padding-bottom: 0.3rem;}
+.top-banner img{width: 100%;}
+.menu-panel{margin-top: 0.3rem;padding-bottom: 0.3rem;}
+.menu-panel .flex-div{margin-top: 0.3rem;}
+.menu-panel .flex-element{width: 25%;}
+.menu-item .menu-image{height: 1.3rem;}
+.menu-item .menu-image img{width: 1.2rem;}
+.menu-item .menu-text{font-size: 0.34rem;}

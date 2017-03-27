@@ -1,0 +1,9 @@
+
+.driver-oil-data-area{display: flex;flex-direction:row;padding:0.4rem 0.5rem;}
+.driver-oil-data-area .driver-oil-data-icon{flex:1 1 0px}
+.driver-oil-data-area .driver-oil-data-icon img{margin-top:10px}
+.driver-oil-data-area .driver-data-field{flex:3 1 0px}
+
+.driver-data-oil-icon{flex:1 1 0px;padding-left:0.5rem;color: #666666;font-size: 0.4rem}
+.driver-data-text{flex:1 1 0px;}
+

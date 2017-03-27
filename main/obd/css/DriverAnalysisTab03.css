@@ -1,0 +1,10 @@
+
+.driver-eco-data-area{display: flex;flex-direction:row;padding:0.4rem 0.5rem;padding-top: 0.1rem;}
+.driver-eco-data-area .driver-eco-data-icon{flex:3 1 0px}
+.driver-eco-data-area .driver-eco-data-icon img{margin-top:0.5rem}
+.driver-eco-data-area .driver-data-field{flex:7 1 0px}
+
+.driver-data-eco-icon{flex:1 1 0px;padding-left:0.5rem;color: #666666;font-size: 0.4rem}
+.driver-data-text{flex:1 1 0px;}
+.driver-data-eco-item{padding-top: 0.05rem;}
+

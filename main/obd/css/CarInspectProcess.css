@@ -1,0 +1,17 @@
+@import url("../../../css/common/base.css");
+
+.inspect-top{margin:0.4rem;height: 2.5rem;}
+.inspect-check-animate{position: absolute;}
+.inspect-check-animate .inspect-check-bg{background: url("../../../images/obd/obd_check_score_bg.png") no-repeat center;height: 100%;width: 2.5rem; background-size:2.5rem;text-align: center;}
+.inspect-progress-area{flex:2 1 0px;padding:0.3rem 0 0 0.3rem;margin-left: 2.5rem;}
+.inspect-label{padding-bottom: 0.2rem;}
+.progress-text{font-size: 0.41rem;}
+.unit{font-size: 0.4rem !important;}
+
+.inspect-car-chart{height: 5.5rem;}
+.inspect-car-chart img{width: 100%;}
+.faults-title{padding: 5px 15px;}
+.inspect-faults-area{padding:0 15px;background-color: #ffffff}
+.inspect-faults-area .faults-item{background: url("../../../images/obd/obd_fault_icon.png") no-repeat left;height: 0.8rem;line-height: 0.8rem;text-indent: 0.8rem;background-size: 0.6rem;margin: 0.2rem 0.3rem;font-size: 0.38rem;color: #888888}
+
+.inspect-progress{height: 0.2rem;margin-top: 0.3rem;}

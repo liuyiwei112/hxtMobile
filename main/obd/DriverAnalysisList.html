@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1, user-scalable=no">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="#fc3434">
+		<link rel="stylesheet" href="../../css/mui/mui.picker.min.css" />
+		<link rel="stylesheet" href="css/DriverAnalysisList.css" />
+		<title></title>
+		<script type="text/javascript" src="../../js/common/jquery.js" ></script>
+		<script type="text/javascript" src="../../js/common/ai-base.js" ></script>
+		<script type="text/javascript" src="../../js/mui.min.js" ></script>
+		<script type="text/javascript" src="js/DriverAnalysisList.js"></script>
+	</head>
+
+	<body>
+		<div class="x-panel-top">
+			<div class="x-panel-top-left" onclick="mui.back()">
+				<span class="left-icon"></span>
+			</div>
+			<div class="x-panel-top-center">
+				<div class="x-title-bar">
+					驾驶分析
+				</div>
+			</div>
+			<div class="x-panel-top-right">
+				<div class="button button-red-reverse button-daily-track">每日足迹</div>
+			</div>
+		</div>
+
+		<div class="x-panel-content">
+			<div class="date-selector width100">
+				<table class="width100 bg1">
+					<tr>
+						<td class="width33 text-right btn-date-left">
+							<img src='../../images/obd/obd-driver-left.png'/>
+						</td>
+						<td class="width33 text-center now-date">2015-04-08</td>
+						<td class="width33 btn-date-right">
+							<img src='../../images/obd/obd-driver-right.png'/>
+						</td>
+					</tr>
+				</table>
+			</div>
+			<div class="total-area bg1 width100">
+				<table class="width100">
+					<tr>
+						<td class="width50">
+							<div class="fl lable-icon total-area-mile width60 height100">
+								总行程
+							</div>
+							<div class="fr text-field text-right width40 height100">
+								<label class="total-area-mile-text">23</label><label class="unit">km</label>
+							</div>
+						</td>
+						<td class="width50">
+							<div class="fl lable-icon total-area-speedup width70 height100">
+								急加速
+							</div>
+							<div class="fr text-right width30 height100">
+								<label class="num-count total-area-speedup-text">3</label> <label class="unit">次</label>
+							</div>
+						</td>
+					</tr>
+					<tr>
+						<td class="width50">
+							<div class="fl lable-icon total-area-time width60 height100">
+								总时长
+							</div>
+							<div class="fr text-right width40 height100">
+								<label class="total-area-time-text">12.5</label><label class="unit">h</label>
+							</div>
+						</td>
+						<td class="width50">
+							<div class="fl lable-icon total-area-speeddown width70 height100">
+								急减速
+							</div>
+							<div class="fr text-right width30 height100">
+								<label class="num-count total-area-speeddown-text">3</label> <label class="unit">次</label>
+							</div>
+						</td>
+					</tr>
+					<tr>
+						<td class="width50">
+							<div class="fl lable-icon total-area-oil width60 height100">
+								总油耗
+							</div>
+							<div class="fr text-right width40 height100">
+								<label class="total-area-oil-text">2.3</label><label class="unit">L</label>
+							</div>
+						</td>
+						<td class="width50">
+							<div class="fl lable-icon total-area-turn width70 height100">
+								急转弯
+							</div>
+							<div class="fr text-right width30 height100">
+								<label class="num-count total-area-turn-text">0</label> <label class="unit">次</label>
+							</div>
+						</td>
+					</tr>
+				</table>
+			</div>
+			<div class="gray-blank10"></div>
+			<div class="driver-list">
+			</div>
+
+			<div class="driver-item-model hide">
+				<div class="start-point width100">
+					<div class="start-icon fl width15 height100"></div>
+					<div class="start-position fr width80 height100">
+						<div class="time start-time font4">11:32:08</div>
+						<input type="hidden" class="st-value" value=""/>
+						<div class="address start-address font5">南京市鼓楼区紫峰大厦</div>
+					</div>
+				</div>
+				<div class="driver-detail width100">
+					<div class="driver-detail-icon fl width15 height100"></div>
+					<div class="driver-detail-desc fr width80 height100">
+						<div class="width100 height100 driver-detail-area">
+							<table class="width100">
+								<tr>
+									<td class="driver-detail-time width50">
+										<label class="detail-text">00:31:22</label>
+									</td>
+									<td class="driver-detail-mile width50">
+										<label class="detail-text">25.5</label><label class="unit">km</label>
+									</td>
+								</tr>
+								<tr>
+									<td class="driver-detail-speed">
+										<label class="detail-text">34</label><label class="unit">km/h</label>
+									</td>
+									<td class="driver-detail-oil">
+										<label class="detail-text">0.78</label><label class="unit">L</label>
+									</td>
+								</tr>
+								<tr>
+									<td class="driver-detail-cost">
+										<label class="detail-text font3">3.9</label><label class="unit">元</label>
+									</td>
+									<td class="driver-detail-max-speed">
+										<label class="detail-text font3">76</label><label class="unit">km/h</label>
+									</td>
+								</tr>
+							</table>
+						</div>
+					</div>
+				</div>
+				<div class="end-point width100">
+					<div class="end-icon fl width15 height100"></div>
+					<div class="end-position fr width80 height100">
+						<div class="time end-time font4">12:02:43</div>
+						<div class="address end-address font5">南京市建邺区万达广场</div>
+					</div>
+				</div>
+			</div>
+
+		</div>
+
+	</body>
+
+</html>

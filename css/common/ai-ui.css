@@ -1,0 +1,41 @@
+/*此css包含了ai-ui中的全部样式*/
+
+/*基本弹出框*/
+.pop-up{position: fixed;top: 0;bottom: 0;z-index: 999;width: 100%;}
+.pop-up-panel{position: fixed;top: 5rem;width: 90%;left: 5%;z-index: 100;}
+.pop-up-panel .pop-up-panel-body{background: #ffffff;}
+.pop-up-mask{position: absolute;background: #333333;opacity: 0.8;top: 0;bottom: 0;width: 100%;z-index: 98;}
+
+/*底部下拉选择框,如相机选择*/
+.pop-up-select{top:0;bottom: 0;position: fixed;width: 100%;}
+.pop-up-select .pop-up-panel{position: fixed;bottom: 0;top: initial; width: 100%;left: 0%;padding:0 0.3rem;}
+.pop-up-select .pop-up-panel .button{background: #f6f6f6;border-radius: 0rem;color: #007AFF;letter-spacing: 0;border-bottom: 1px #C8C7CC solid;}
+
+.item-select-panel .button:first-child{border-top-left-radius:0.1rem ;border-top-right-radius: 0.1rem;}
+.item-select-panel .button:last-child{border-bottom-left-radius:0.1rem ;border-bottom-right-radius: 0.1rem;}
+
+.pop-up-select .pop-up-panel .item-cancel{margin: 0.2rem 0;}
+.pop-up-select .pop-up-panel .item-cancel .button{border-radius: 0.1rem;}
+
+/*转动的加载框*/
+.pop-up-loading .pop-up-panel{text-align: center;}
+.pop-up-loading img{width: 1rem;}
+
+/*局部加载*/
+.car-loading{background: url(../../images/loading.gif) no-repeat center top;width: 100%; height:3rem;position: absolute;background-size: 4rem;background-color: #ffffff;z-index: 100;}
+.car-loading .tip-text{text-align: center;position: absolute;width: 100%;font-size: 0.5rem;color: #666666;top:2rem}
+
+/*全屏加载的汽车动画*/
+.car-loading-full{position: fixed;top: 1.36rem;bottom: 0;width: 100%;background: url(../../images/loading.gif) no-repeat center;background-size: 4rem;background-position-y: 4rem;background-color: #ffffff;z-index: 100;}
+.car-loading-full .tip-text{text-align: center;position: absolute;width: 100%;font-size: 0.5rem;color: #666666;top:5.7rem}
+
+/*局部的汽车提示文本*/
+.car-tip{background: url(../../images/obd/obd_dialog_error.png) no-repeat center top;width: 100%; height:2.5rem;position: absolute;top:5rem;background-size: 4rem;}
+.car-tip-text{text-align: center;position: absolute;width: 100%;font-size: 0.5rem;color: #666666;top:2rem}
+
+
+
+/*mui组件颜色修改*/
+.mui-dtpicker-header button:first-child{font-size: 0.4rem;}
+.mui-dtpicker-header button:last-child{font-size: 0.4rem;border: 0;background: #fc3434;}
+.mui-pciker-list li{font-size: 0.4rem;}

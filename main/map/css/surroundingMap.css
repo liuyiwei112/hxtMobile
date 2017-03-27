@@ -1,0 +1,18 @@
+@import url("../../../css/common/base.css");
+
+
+.map-area{width: 100%;height: 100%;}
+.distance-area{position: absolute;top: 0.2rem;width: 100%;height: 1rem;}
+.distance-area span{width: 2rem;height: 100%;background: #F0F0F0;display: inline-block;text-align: center;line-height: 1rem;font-size: 0.4rem;color: darkorange;border-radius: 0.2rem;margin-left: 0.3rem;}
+.distance-area span.check{background: darkorange;color: #ffffff;}
+
+.poi-panel{position: absolute;bottom: 0.5rem;height: 3.2rem;background: #ffffff;width: 96%;left: 2%;z-index: 999;border-radius: 0.1rem;}
+.poi-detal{padding: 0.1rem;}
+.poi-name{background: url(../../../images/obd/obd_shop.png) no-repeat left;background-size: 0.45rem;height: 0.8rem;line-height: 0.9rem;color: #666666;font-size: 0.44rem;text-indent: 0.6rem;}
+.poi-text{line-height: 0.6rem;color: #999999;text-indent: 0.6rem;font-size: 0.4rem;}
+.poi-button-area{border-top: 1px #D3D3D3 solid;}
+.poi-button{text-align: center;height: 1rem;line-height: 1rem;font-size: 0.44rem;color: #666666;}
+.marker-not-check{background: url(../../../images/obd/obd_map_marker.png) no-repeat center;background-size: 100%;line-height: 0.7rem;text-align: center;color: #666666;font-size: 0.36rem;}
+.marker-checked{background: url(../../../images/obd/obd_map_marker_check.png) no-repeat center;background-size: 100%;color:darkorange}
+
+.amap-touch-toolbar .amap-zoomcontrol{bottom: 1rem;}

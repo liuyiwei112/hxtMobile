@@ -1,0 +1,30 @@
+@import url("../../css/common/base.css");
+
+.rescue-map{position: absolute;top: 0;bottom: 6rem;width: 100%;}
+.menu-items{position: absolute;width: 100%;bottom: 0.4rem;}
+.menu-item{padding-bottom: 0.2rem;}
+
+.menu-item .menu-image{height: 1.6rem;}
+.menu-item .menu-image img{width: 1.5rem;}
+
+/*弹出层样式*/
+.pop-up-panel{top: 4rem;}
+.pop-up-panel-body{padding-top: 0.3rem;}
+.rescue-content{padding: 0 0.3rem;}
+
+.tip-title{padding-bottom: 0.2rem;border-bottom: 1px #C8C7CC dashed;}
+.wenhao{text-align: right;padding-right: 0.4rem;}
+.wenhao img{width: 1rem;}
+.wenhao-text{font-size: 0.44rem;color: #333333;height: 1rem;line-height: 1.1rem;background: url(../../images/menus/rescue/wenhao.png) no-repeat left;background-size: 0.8rem;line-height: 1.1rem;margin-left: 2rem;text-indent: 1.2rem;}
+
+.call-area{padding-bottom: 0.2rem;font-size: 0.36rem;color: #696969;}
+.tel-num{line-height: 0.8rem;font-size: 0.36rem;color: #696969;}
+.tel-phone{margin-top: 0.4rem;}
+.tel-phone input{height: 0.8rem;}
+.tip-area{margin-top: 0.4rem;}
+
+.pro-intro{border-top: 1px solid #e3e3e3;border-left: 1px solid #e3e3e3;margin-top: 0.4rem;}
+.pro-intro td{border-right: 1px solid #e3e3e3;border-bottom: 1px solid #e3e3e3;padding: 0.2rem 0;font-size: 0.4rem;text-align: center;color: #696969;}
+.pro-intro tr:first-child td{color: #333333;font-weight: bold;}
+
+.button-area{height: 1.2rem;line-height: 1.2rem;font-size: 0.44rem;color: #696969;border-top: 1px solid #e3e3e3;text-align: center;}

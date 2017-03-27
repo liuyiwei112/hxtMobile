@@ -1,0 +1,15 @@
+@import url("../../../css/common/base.css");
+@import url("pageCommon.css");
+
+.maintain-progress{background: url(../../../images/dp-progress-maintain.png) no-repeat;background-size: 100%;}
+.map-area{width: 100%;height: 7rem;}
+
+
+.bottom-account{border-top: 1px #E3E3E3 solid;background: #ffffff;}
+.bottom-account .call-center{border-right: 1px #E3E3E3 solid;}
+.bottom-account .set-account{line-height: 1.36rem;border-radius: 0;}
+.bottom-account .total-price{line-height: 1rem;height: 0.7rem;font-size: 0.44rem;color: #666666;font-weight: 100;padding-left: 0.3rem;}
+.bottom-account .total-pre-price{line-height: 0.7rem;height: 0.6rem;font-weight: 100;padding-left: 0.3rem;}
+.bottom-account .total-price label{font-size: 0.5rem;}
+
+.call-center-icon{margin: 0 auto;margin-top: 0.2rem;}

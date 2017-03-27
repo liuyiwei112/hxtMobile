@@ -1,0 +1,272 @@
+[
+  {
+    "assistanceType": "1",
+    "itemName": "常用电话",
+    "crmRoadsideAssistanceVOs": [
+      {
+        "id": 27,
+        "mobile": "122",
+        "mobileDesc": "122",
+        "companyName": "交通事故救援",
+        "assistanceType": "1",
+        "itemName": "常用电话",
+        "companyPic": ""
+      },
+      {
+        "id": 28,
+        "mobile": "120",
+        "mobileDesc": "120",
+        "companyName": "急救",
+        "assistanceType": "1",
+        "itemName": "常用电话",
+        "companyPic": ""
+      }
+    ]
+  },
+  {
+    "assistanceType": "2",
+    "itemName": "道路救援",
+    "crmRoadsideAssistanceVOs": [
+      {
+        "id": 29,
+        "mobile": "4008108208",
+        "mobileDesc": "400-810-8208",
+        "companyName": "中联车盟道路救援",
+        "assistanceType": "2",
+        "itemName": "道路救援",
+        "companyPic": ""
+      },
+      {
+        "id": 30,
+        "mobile": "95195988",
+        "mobileDesc": "95195988转7",
+        "companyName": "中石化免费救援",
+        "assistanceType": "2",
+        "itemName": "道路救援",
+        "companyPic": ""
+      },
+      {
+        "id": 31,
+        "mobile": "95000",
+        "mobileDesc": "95000转3转3",
+        "companyName": "太平洋车险免费救援",
+        "assistanceType": "2",
+        "itemName": "道路救援",
+        "companyPic": ""
+      },
+      {
+        "id": 32,
+        "mobile": "95518",
+        "mobileDesc": "95518转9",
+        "companyName": "人保车险免费救援",
+        "assistanceType": "2",
+        "itemName": "道路救援",
+        "companyPic": ""
+      },
+      {
+        "id": 33,
+        "mobile": "4008181010",
+        "mobileDesc": "400-818-1010",
+        "companyName": "大陆汽车救援",
+        "assistanceType": "2",
+        "itemName": "道路救援",
+        "companyPic": ""
+      },
+      {
+        "id": 34,
+        "mobile": "95511",
+        "mobileDesc": "95511转5转2",
+        "companyName": "平安车险免费救援",
+        "assistanceType": "2",
+        "itemName": "道路救援",
+        "companyPic": ""
+      }
+    ]
+  },
+  {
+    "assistanceType": "3",
+    "itemName": "保险公司电话",
+    "crmRoadsideAssistanceVOs": [
+      {
+        "id": 35,
+        "mobile": "95512",
+        "mobileDesc": "95512",
+        "companyName": "平安汽车保险",
+        "assistanceType": "3",
+        "itemName": "保险公司电话",
+        "companyPic": "http://115.28.22.146:8090/ImageServer/insurerCompany/logo_01.png"
+      },
+      {
+        "id": 36,
+        "mobile": "95505",
+        "mobileDesc": "95505",
+        "companyName": "天安汽车保险",
+        "assistanceType": "3",
+        "itemName": "保险公司电话",
+        "companyPic": "http://115.28.22.146:8090/ImageServer/insurerCompany/logo_02.png"
+      },
+      {
+        "id": 37,
+        "mobile": "95518",
+        "mobileDesc": "95505",
+        "companyName": "中国人保汽车保险",
+        "assistanceType": "3",
+        "itemName": "保险公司电话",
+        "companyPic": "http://115.28.22.146:8090/ImageServer/insurerCompany/logo_03.png"
+      },
+      {
+        "id": 38,
+        "mobile": "95500",
+        "mobileDesc": "95500",
+        "companyName": "太平洋汽车保险",
+        "assistanceType": "3",
+        "itemName": "保险公司电话",
+        "companyPic": "http://115.28.22.146:8090/ImageServer/insurerCompany/logo_04.png"
+      },
+      {
+        "id": 39,
+        "mobile": "95585",
+        "mobileDesc": "95585",
+        "companyName": "中华联合汽车保险",
+        "assistanceType": "3",
+        "itemName": "保险公司电话",
+        "companyPic": "http://115.28.22.146:8090/ImageServer/insurerCompany/logo_05.png"
+      },
+      {
+        "id": 40,
+        "mobile": "95590",
+        "mobileDesc": "95590",
+        "companyName": "大地汽车保险",
+        "assistanceType": "3",
+        "itemName": "保险公司电话",
+        "companyPic": "http://115.28.22.146:8090/ImageServer/insurerCompany/logo_06.png"
+      },
+      {
+        "id": 41,
+        "mobile": "95502",
+        "mobileDesc": "95502",
+        "companyName": "永安汽车保险",
+        "assistanceType": "3",
+        "itemName": "保险公司电话",
+        "companyPic": "http://115.28.22.146:8090/ImageServer/insurerCompany/logo_07.png"
+      },
+      {
+        "id": 42,
+        "mobile": "95510",
+        "mobileDesc": "95510",
+        "companyName": "阳光汽车保险",
+        "assistanceType": "3",
+        "itemName": "保险公司电话",
+        "companyPic": "http://115.28.22.146:8090/ImageServer/insurerCompany/logo_08.png"
+      },
+      {
+        "id": 43,
+        "mobile": "95569",
+        "mobileDesc": "95569",
+        "companyName": "安邦汽车保险",
+        "assistanceType": "3",
+        "itemName": "保险公司电话",
+        "companyPic": "http://115.28.22.146:8090/ImageServer/insurerCompany/logo_09.png"
+      },
+      {
+        "id": 44,
+        "mobile": "95589",
+        "mobileDesc": "95589",
+        "companyName": "太平汽车保险",
+        "assistanceType": "3",
+        "itemName": "保险公司电话",
+        "companyPic": "http://115.28.22.146:8090/ImageServer/insurerCompany/logo_10.png"
+      },
+      {
+        "id": 45,
+        "mobile": "95586",
+        "mobileDesc": "95586",
+        "companyName": "都邦汽车保险",
+        "assistanceType": "3",
+        "itemName": "保险公司电话",
+        "companyPic": "http://115.28.22.146:8090/ImageServer/insurerCompany/logo_11.png"
+      },
+      {
+        "id": 46,
+        "mobile": "95552",
+        "mobileDesc": "95552",
+        "companyName": "永诚汽车保险",
+        "assistanceType": "3",
+        "itemName": "保险公司电话",
+        "companyPic": "http://115.28.22.146:8090/ImageServer/insurerCompany/logo_12.png"
+      },
+      {
+        "id": 47,
+        "mobile": "4006095509",
+        "mobileDesc": "4006095509",
+        "companyName": "华泰汽车保险",
+        "assistanceType": "3",
+        "itemName": "保险公司电话",
+        "companyPic": "http://115.28.22.146:8090/ImageServer/insurerCompany/logo_13.png"
+      },
+      {
+        "id": 48,
+        "mobile": "4006116666",
+        "mobileDesc": "4006116666",
+        "companyName": "渤海汽车保险",
+        "assistanceType": "3",
+        "itemName": "保险公司电话",
+        "companyPic": "http://115.28.22.146:8090/ImageServer/insurerCompany/logo_14.png"
+      },
+      {
+        "id": 49,
+        "mobile": "95507",
+        "mobileDesc": "95507",
+        "companyName": "大众汽车保险",
+        "assistanceType": "3",
+        "itemName": "保险公司电话",
+        "companyPic": "http://115.28.22.146:8090/ImageServer/insurerCompany/logo_15.png"
+      },
+      {
+        "id": 50,
+        "mobile": "95550",
+        "mobileDesc": "95550",
+        "companyName": "天平汽车保险",
+        "assistanceType": "3",
+        "itemName": "保险公司电话",
+        "companyPic": "http://115.28.22.146:8090/ImageServer/insurerCompany/logo_16.png"
+      },
+      {
+        "id": 51,
+        "mobile": "95506",
+        "mobileDesc": "95506",
+        "companyName": "民安汽车保险",
+        "assistanceType": "3",
+        "itemName": "保险公司电话",
+        "companyPic": "http://115.28.22.146:8090/ImageServer/insurerCompany/logo_17.png"
+      },
+      {
+        "id": 52,
+        "mobile": "95556",
+        "mobileDesc": "95556",
+        "companyName": "华安汽车保险",
+        "assistanceType": "3",
+        "itemName": "保险公司电话",
+        "companyPic": "http://115.28.22.146:8090/ImageServer/insurerCompany/logo_18.png"
+      },
+      {
+        "id": 53,
+        "mobile": "4000500000",
+        "mobileDesc": "4000500000",
+        "companyName": "安诚汽车保险",
+        "assistanceType": "3",
+        "itemName": "保险公司电话",
+        "companyPic": "http://115.28.22.146:8090/ImageServer/insurerCompany/logo_19.png"
+      },
+      {
+        "id": 54,
+        "mobile": "95519",
+        "mobileDesc": "95519",
+        "companyName": "中国人寿财险",
+        "assistanceType": "3",
+        "itemName": "保险公司电话",
+        "companyPic": "http://115.28.22.146:8090/ImageServer/insurerCompany/logo_20.png"
+      }
+    ]
+  }
+]

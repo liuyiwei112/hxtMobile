@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1,user-scalable=no">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="#FC3434">
+		<link rel="stylesheet" href="../../css/mui.min.css" />
+		<link rel="stylesheet" href="css/illegalQuery.css" />
+		<title></title>
+		<script type="text/javascript" src="../../js/common/jquery.js"></script>
+		<script type="text/javascript" src="../../js/common/ai-base.js"></script>
+		<script type="text/javascript" src="../../js/mui.min.js" ></script>
+		<script type="text/javascript" src="js/illegalQuery.js"></script>
+	</head>
+
+	<body>
+		<div class="x-panel-top">
+			<div class="x-panel-top-left" onclick="mui.back()">
+				<span class="left-icon"></span>
+			</div>
+			<div class="x-panel-top-center">
+				<div class="x-title-bar">
+					违章查询
+				</div>
+			</div>
+			<div class="x-panel-top-right">
+			</div>
+		</div>
+
+		<div class="x-panel-content">
+
+			<div class="top-tap">
+				<div class="tap-not-checked tap-checked not-read" onclick="queryIllegal(0)">未处理</div>
+				<div class="tap-not-checked has-read" onclick="queryIllegal(1)">已处理</div>
+			</div>
+
+			<div class="illegal-panel">
+
+			</div>
+
+			<div class="illegal-content-model hide">
+				<div class="illegal-top flex-div">
+					<div class="flex-element car-no"></div>
+					<div class="flex-element illegal-date"></div>
+				</div>
+				<div class="illegal-main">
+					<div class="illegal-address">违章地址：<label class="unit"></label></div>
+					<div class="illegal-action">违章行为：<label class="unit"></label></div>
+				</div>
+				<div class="illegal-bottom flex-div">
+					<div class="flex-element"></div>
+					<div class="flex-element2 flex-div">
+						<div class="flex-element score-money score">扣分：<label></label></div>
+						<div class="flex-element score-money money">罚款：<label></label></div>
+					</div>
+				</div>
+			</div>
+
+		</div>
+
+	</body>
+
+</html>

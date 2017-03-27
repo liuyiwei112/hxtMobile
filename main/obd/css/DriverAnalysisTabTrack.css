@@ -1,0 +1,20 @@
+@import url("../../../css/common/base.css");
+
+.x-panel-top .x-panel-top-center{flex: 4;}
+.x-panel-content{position: absolute;top: 0;bottom: 0;width: 100%;}
+
+.map-track-div{height: 100%;}
+
+.text-replay-area{position: absolute;top:0.3rem;width: 90%;margin-left:5%;background: #ffffff;z-index: 999;padding: 0 15px;height: 1.2rem;line-height: 1.25rem;}
+.replay-speed{font-size: 0.5rem;}
+.replay-date{font-size: 0.4rem;}
+.replay-progress-area{position:absolute;bottom:0.8rem;width: 90%;height: 1.3rem;left:5%;background: #ffffff;z-index: 00;display: flex;flex-direction:row}
+.replay-button{flex:1 1 0px;background: url('../../../images/obd/obd_map_move_start.png') no-repeat center;background-size: 1rem;}
+.replay-button-stop{background: url('../../../images/obd/obd_map_move_rest.png') no-repeat center;background-size: 1rem;}
+.replay-progress{flex:5 1 0px;padding:0 10px}
+
+.progress-point{position:relative;background:#ffffff;box-shadow:0 0 1px 1px #999;border-radius:50%;height: 0.8rem;width: 0.8rem;top:0.05rem;left: -1%;}
+.progress-point-moved{filter:alpha(opacity=50); -moz-opacity:0.5;opacity:0.5 ;}
+
+.mui-progressbar{top:0.55rem;height: 0.2rem;}
+

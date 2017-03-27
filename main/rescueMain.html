@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="#fc3434">
+		<link rel="stylesheet" href="../js/common/swiper/css/swiper.min.css" />
+		<link rel="stylesheet" href="../css/mui.min.css" />
+		<link rel="stylesheet" href="css/rescueMain.css" />
+		<title></title>
+		<script type="text/javascript" src="../js/common/jquery.js"></script>
+		<script type="text/javascript" src="../js/common/ai-base.js"></script>
+		<script type="text/javascript" src="../js/mui.min.js" ></script>
+		<script type="text/javascript" src="js/rescueMain.js"></script>
+		<style>
+			.menu-item{width: 32%;padding-bottom: 0.2rem;}
+			.menu-items .flex-div{padding-left: 2%;}
+			.menu-item .menu-image{margin-bottom: 0.05rem;}
+		</style>
+	</head>
+
+	<body>
+		<div class="x-panel-top">
+			<div class="x-panel-top-left" onclick="mui.back()">
+				<span class="mui-icon mui-icon-back"></span>
+			</div>
+			<div class="x-panel-top-center">
+				<div class="x-title-bar">
+					精准救援
+				</div>
+			</div>
+			<div class="x-panel-top-right">
+
+			</div>
+		</div>
+		<div class="x-panel-content">
+			<div class="rescue-map" id="rescue_map"></div>
+			<div class="menu-items">
+				<div class="flex-div">
+					<div class="menu-item flex-element">
+						<div class="menu-image"><img src="../images/menus/rescue/kuidian.png" /> </div>
+						<div class="menu-text">电瓶救援</div>
+					</div>
+					<div class="menu-item flex-element">
+						<div class="menu-image"><img src="../images/menus/rescue/baotai.png" /> </div>
+						<div class="menu-text">轮胎救援</div>
+					</div>
+					<div class="menu-item flex-element">
+						<div class="menu-image"><img src="../images/menus/rescue/tuoche.png" /> </div>
+						<div class="menu-text">拖车救援</div>
+					</div>
+				</div>
+				<div class="flex-div">
+					<div class="menu-item flex-element">
+						<div class="menu-image"><img src="../images/menus/rescue/jiayou.png" /> </div>
+						<div class="menu-text">缺油救援</div>
+					</div>
+					<div class="menu-item flex-element">
+						<div class="menu-image"><img src="../images/menus/rescue/kunjing.png" /> </div>
+						<div class="menu-text">困境救援</div>
+					</div>
+					<div class="menu-item flex-element">
+						<div class="menu-image"><img src="../images/menus/rescue/qita.png" /> </div>
+						<div class="menu-text">其他救援</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="info-content hide">
+			<table class="width90">
+				<tr>
+					<td class="icon-left font1" style="background-image: url(../images/obd/obd_safe_icon1.png);">车牌：</td>
+					<td class="info-window-text">
+						<div class="info-window-text text-car-no">苏A4G2Z2</div>
+					</td>
+				</tr>
+				<tr>
+					<td class="icon-left font1" style="background-image: url(../images/obd/obd_safe_icon2.png);">时间：</td>
+					<td class="info-window-text">
+						<div class="info-window-text text-date">2016-03-03</div>
+					</td>
+				</tr>
+				<tr>
+					<td class="icon-left font1" style="background-image: url(../images/obd/obd_safe_icon3.png);">地址:</td>
+					<td class="">
+						<div class="info-window-text text-address">江苏省南京市鼓楼区古平岗</div>
+					</td>
+				</tr>
+				<tr>
+					<td class="icon-left font1" style="background-image: url(../images/obd/obd_safe_icon5.png);">故障:</td>
+					<td class="">
+						<div class="info-window-text text-address">氧传感器异常</div>
+					</td>
+				</tr>
+			</table>
+		</div>
+
+		<div class="pop-up height100 width100 hide">
+			<div class="pop-up-panel">
+				<div class="pop-up-panel-body">
+					<div class="rescue-content">
+						<div class="tip-title">
+							<div class="wenhao-text">
+								确认请求救援吗？
+							</div>
+						</div>
+
+						<div class="call-area">
+							<div class="flex-div tel-phone">
+								<div class="flex-element-no-padding tel-num">联系号码：</div>
+								<div class="flex-element2-no-padding width70">
+									<input type="text" placeholder="13099998888">
+								</div>
+							</div>
+							<div class="tip-area">确认后，平台客服人员将在<font color="red">30秒</font>内电话联系您，请保持电话畅通。
+								救援标准价格<font color="red">约200元</font>，具体收费浮动以实际为准
+							</div>
+						</div>
+
+					</div>
+
+					<div class="button-area flex-div">
+						<div class="flex-element go width50">继续</div>
+						<div class="flex-element bd-left1 back width50">取消</div>
+					</div>
+				</div>
+			</div>
+			<div class="pop-up-mask"></div>
+		</div>
+		<div class="loading-tip">
+			<span class="loading-tip-text">地图加载中...</span>
+		</div>
+
+	</body>
+
+</html>

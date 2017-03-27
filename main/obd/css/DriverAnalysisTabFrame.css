@@ -1,0 +1,5 @@
+@import url("../../../css/common/base.css");
+@import url("analysisCommon.css");
+
+
+.x-panel-top .x-panel-top-center{flex: 3;}

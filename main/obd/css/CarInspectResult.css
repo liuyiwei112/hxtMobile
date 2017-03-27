@@ -1,0 +1,28 @@
+@import url("../../../css/common/base.css");
+
+.inspect-top{padding-bottom: 0.5rem;}
+.inspect-score{position: absolute;width: 3.5rem;height: 2.5rem;margin:0.5rem 0 0 0.5rem}
+.inspect-rank{margin-left:3.5rem;height: 3rem;}
+.inspect-rank .normal-div{border-left: 2px #eeeeee solid;padding-right:10px}
+.inspect-rank .error-div{border-left: 2px #eeeeee solid;padding-left:10px}
+
+.inspect-rank .inspect-item-count{padding-top:0.5rem ;font-size: 0.7rem;}
+.inspect-rank .normal-num{color:forestgreen}
+.inspect-rank .hit-percent-area{color: #999999;border-bottom:1px #eeeeee solid;padding-top:0.15rem;padding-bottom: 0.15rem; font-size: 0.39rem;}
+
+.unit{padding-left: 0;font-size: 0.4rem !important;padding-right: 0.4rem;}
+.inspect-button{border-radius:5px;margin-top:0.2rem;width: 5rem;height: 0.7rem;line-height: 0.7rem;font-size: 0.4rem;}
+
+.avg_inspect_gray_bg{width: 2.5rem;height: 2.5rem;background: url("../../../images/obd/obd_check_score_circle.png") no-repeat center;background-size:100%;}
+.avg_inspect{position:relative;}
+.avg_inspect strong {position: absolute;left: 0;width: 100%;text-align: center;color: #666666;top:0.85rem;color:forestgreen;font-size: 0.65rem;}
+.avg_inspect span {position: absolute;top: 60px;left: 0;width: 100%;text-align: center;line-height: 20px;font-size: 12px;}
+.avg_inspect canvas{width: 2.1rem;margin: 0.2rem 0 0 0.2rem;}
+
+.inspect-result-area{background: #ffffff;padding:0 0.4rem;}
+.inspect-error{background-image: url("../../../images/obd/obd_fault_warning_icon.png") !important;background-size: 0.55rem !important;}
+.inspect-ok{background-image: url("../../../images/obd/obd_fault_normal_icon.png") !important;background-size: 0.55rem !important;}
+
+.not-check-tips{height: 2rem;line-height: 2rem;width: 100%;text-align: center;font-size: 0.44rem;color: #666666;}
+.inspect-button-not-check{height: 1rem;line-height: 1rem;width: 90%;margin-left: 5%;margin-top: 0;}
+

@@ -1,0 +1,14 @@
+@import url("../../../css/common/base.css");
+
+.illegal-panel{margin: 0.4rem 0;width: 90%;margin-top: 1.1rem;margin-left: 5%;position: absolute;top: 0.4rem;}
+.illegal-content{border: 1px #c8c7cc solid;border-radius: 0.2rem;box-shadow: 0px 0px 0.2rem #dddddd;margin-bottom: 0.4rem;}
+.illegal-top{height: 1.2rem;background: url(../../../images/tools/illegal-top.png) no-repeat;background-size: 100%;}
+.illegal-top .car-no{line-height: 1.2rem;font-size: 0.5rem;color: #fc3434;background: url(../../../images/obd/obd_dt_icon8_1.png) no-repeat left;background-size: 0.6rem;background-position-x: 0.3rem;background-position-y: 0.3rem;text-indent: 0.7rem;}
+.illegal-top .illegal-date{line-height: 1.2rem;font-size: 0.4rem;color: #999999;}
+.illegal-main{padding: 0.4rem;padding-bottom: 0;}
+.illegal-main .illegal-address,.illegal-main .illegal-action{font-size: 0.44rem;color: #666666;line-height: 1rem;}
+.illegal-main .illegal-action{border-bottom: 1px #c8c7cc solid;padding-bottom: 0.2rem;}
+.illegal-bottom .flex-element2{padding: 0.3rem;font-size: 0.4rem;color: #999999;}
+.illegal-bottom .score-money{padding: 0;text-align: right;}
+.illegal-bottom .score-money label{font-size: 0.5rem;color: #fc3434;}
+.unit{font-size: 0.44rem !important;}

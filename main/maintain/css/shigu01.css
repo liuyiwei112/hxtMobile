@@ -1,0 +1,19 @@
+@import url("../../../css/common/base.css");
+@import url("pageCommon.css");
+
+.shigu-progress{background: url(../../../images/maintain/dp-progress-shigu.png) no-repeat;background-size: 100%;}
+.car-info .car-factory,.car-info .car-year{line-height: 1.8rem;}
+.car-info .car-right span{margin-top: 0.58rem;}
+
+.car-body-panel{padding:0.3rem;}
+.car-body-panel .car-body-party{padding:0 0.05rem;}
+.car-body-panel .car-body-party img{width: 2.8rem;}
+
+.car-body-panel img{width: 100%;}
+
+.cs-desc{background: #F3F3F3;padding:0.1rem 0.3rem;}
+.cs-desc .cs-title{line-height: 0.8rem;font-size: 0.4rem;color: #999999;}
+.cs-desc textarea{height: 2rem;}
+
+
+

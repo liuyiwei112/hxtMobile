@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1, user-scalable=no">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="#fc3434">
+		<link rel="stylesheet" href="../../js/common/swiper/css/swiper.min.css" />
+		<link rel="stylesheet" href="css/DriverAnalysisTabFrame.css" />
+		<title></title>
+
+		<script type="text/javascript" src="../../js/common/jquery.js"></script>
+		<script type="text/javascript" src="../../js/common/ai-base.js"></script>
+		<script type="text/javascript" src="../../js/mui.min.js" ></script>
+		<style>
+			.swiper-slide {
+				min-height: 16.5rem;
+			}
+			
+			.ios-body .driver-analysis-tab {
+				margin-top: 0.75rem
+			}
+		</style>
+	</head>
+
+	<body>
+
+		<div class="x-panel-top">
+			<div class="x-panel-top-left" onclick="mui.back()">
+				<span class="left-icon"></span>
+			</div>
+			<div class="x-panel-top-center">
+				<div class="driver-analysis-tab">
+					<div class="height100 active driver-tab">
+						常规
+					</div>
+					<div class="center height100 driver-tab">
+						省油
+					</div>
+					<div class="height100 driver-tab">
+						环保
+					</div>
+				</div>
+			</div>
+			<div class="x-panel-top-right">
+
+			</div>
+		</div>
+		<div class="x-panel-content">
+			<div class="swiper-container">
+				<div class="swiper-wrapper">
+				</div>
+				<div class="swiper-pagination"></div>
+			</div>
+		</div>
+
+		<script>
+			bs.loadScript('../../', ['swiper','mt']);
+
+			mui.plusReady(function() {
+				mui.init({
+					beforeback: function() {
+						var wobj = plus.webview.getWebviewById("index");
+						mui.fire(wobj, 'initParam');
+						return true;
+					}
+				})
+			})
+
+			var pageList = ['DriverAnalysisTab01.html', 'DriverAnalysisTab02.html', 'DriverAnalysisTab03.html']
+			var pageContent = [];
+			$(function() {
+
+				if(mui.os.ios && mui.os.plus) {
+					$('body').addClass('ios-body');
+				}
+
+				getPage(0, function() {
+					getPage(1, function() {
+						getPage(2, function() {
+							initSwiper()
+						})
+					})
+				})
+			})
+
+			function getPage(i, _callback) {
+				$.get(pageList[i], function(text) {
+					$('.swiper-wrapper').append('<div class="swiper-slide">' + text + '</div>');
+					_callback();
+				})
+			}
+
+			function initSwiper() {
+				var menu_swiper = new Swiper('.swiper-container', {
+					paginationClickable: false,
+					onSlideChangeEnd: changeTab
+				});
+				$('.driver-tab').click(function() {
+					var index = $('.driver-tab').index(this);
+					menu_swiper.slideTo(index, 500, false);
+					$('.driver-analysis-tab .active').removeClass('active');
+					$(this).addClass('active');
+				})
+			}
+
+			function changeTab(swiper) {
+				$('.driver-tab').removeClass('active')
+				$('.driver-tab:eq(' + swiper.activeIndex + ')').addClass('active');
+			}
+		</script>
+
+	</body>
+
+</html>

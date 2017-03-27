@@ -1,0 +1,50 @@
+[
+  {
+    "alermType": "101",
+    "alermName": "疲劳驾驶告警",
+    "alermCount": 0,
+    "alermPhoto": "http://siov.huijiacn.com/ImageServer/Car_Alert/alert_101.png"
+  },
+  {
+    "alermType": "102",
+    "alermName": "怠速告警",
+    "alermCount": 0,
+    "alermPhoto": "http://siov.huijiacn.com/ImageServer/Car_Alert/alert_102.png"
+  },
+  {
+    "alermType": "106",
+    "alermName": "低电压休眠告警",
+    "alermCount": 0,
+    "alermPhoto": "http://siov.huijiacn.com/ImageServer/Car_Alert/alert_04.png"
+  },
+  {
+    "alermType": "107",
+    "alermName": "水温异常告警",
+    "alermCount": 0,
+    "alermPhoto": "http://siov.huijiacn.com/ImageServer/Car_Alert/alert_107.png"
+  },
+  {
+    "alermType": "1303",
+    "alermName": "急加速告警",
+    "alermCount": 0,
+    "alermPhoto": "http://siov.huijiacn.com/ImageServer/Car_Alert/alert_103.png"
+  },
+  {
+    "alermType": "1304",
+    "alermName": "急减速告警",
+    "alermCount": 3,
+    "alermPhoto": "http://siov.huijiacn.com/ImageServer/Car_Alert/alert_104.png"
+  },
+  {
+    "alermType": "1401",
+    "alermName": "失联告警",
+    "alermCount": 0,
+    "alermPhoto": "http://siov.huijiacn.com/ImageServer/Car_Alert/alert_1401.png"
+  },
+  {
+    "alermType": "61433",
+    "alermName": "驻车震动告警",
+    "alermCount": 0,
+    "alermPhoto": "http://siov.huijiacn.com/ImageServer/Car_Alert/alert_02.png"
+  }
+]

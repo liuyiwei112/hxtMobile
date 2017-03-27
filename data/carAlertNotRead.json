@@ -1,0 +1,35 @@
+[
+	{
+      "serial": 1749,
+      "carId": 136,
+      "alermType": "1304",
+      "longitude": 118.93140419223953,
+      "latitude": 32.14438574822724,
+      "alermTime": "20160510110934",
+      "alermAddress": "江苏省南京市栖霞区栖霞大道212号",
+      "isRead": "0",
+      "alermName": "急减速告警"
+    },
+    {
+      "serial": 1748,
+      "carId": 136,
+      "alermType": "1304",
+      "longitude": 118.91167754130174,
+      "latitude": 32.134199565060854,
+      "alermTime": "20160510110727",
+      "alermAddress": "江苏省南京市栖霞区栖霞大道",
+      "isRead": "0",
+      "alermName": "急减速告警"
+    },
+    {
+      "serial": 1746,
+      "carId": 136,
+      "alermType": "1304",
+      "longitude": 118.88742227862816,
+      "latitude": 32.1557446470849,
+      "alermTime": "20160510091032",
+      "alermAddress": "江苏省南京市栖霞区恒谊路",
+      "isRead": "0",
+      "alermName": "急减速告警"
+    }
+]

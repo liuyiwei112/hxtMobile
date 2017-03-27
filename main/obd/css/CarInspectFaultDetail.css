@@ -1,0 +1,8 @@
+@import url("../../../css/common/base.css");
+
+.fault-desc{background: none;width:100%;color: #999999;padding-right:15px}
+
+.inspect-error-items{background: #ffffff;padding:0 15px}
+
+
+.normal-text{color: #666666;padding:0.3rem 0;margin-bottom: 0.1rem;padding-left: 0.85rem;font-size: 0.42rem;line-height: 0.7rem;padding-right: 0.5rem;}

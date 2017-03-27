@@ -1,0 +1,9 @@
+@import url("../../../css/common/base.css");
+
+.list-title{height: 1rem;line-height: 1rem;background: #f1f1f1;padding: 0 0.4rem;font-size: 0.44rem;}
+
+.list-items .list-item{line-height: normal;height: 1.5rem;padding: 0 0.3rem;}
+.list-item .list-right-array{background: url(../../../images/tools/my_info_icon4.png) no-repeat right;background-size:0.7rem ;padding-right: 0.4rem;width: 18%;float: left;height: 100%;}
+.list-item .item-name{background-repeat: no-repeat;background-size: 1rem;background-position: left;text-indent: 1.2rem;background-image: url('../../../images/non-image.png');width: 80%;float: left;height: 100%;}
+.mobile-name{padding-top: 0.2rem;color: #333333;font-size: 0.44rem;}
+.mobile-desc{font-size: 0.4rem;color: #999999;}

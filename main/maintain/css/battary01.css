@@ -1,0 +1,7 @@
+@import url("../../../css/common/base.css");
+@import url("pageCommon.css");
+
+.maintain-progress{background: url(../../../images/dp-progress-maintain.png) no-repeat;background-size: 100%;}
+.banner-text-maintain{background-image: url('../../../images/banner_dp01.png');}
+
+.chart img{width: 100%;}

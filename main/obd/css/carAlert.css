@@ -1,0 +1,7 @@
+@import url("../../../css/common/base.css");
+
+.car-alert-item{border-bottom: 1px #eeeeee solid;padding: 0.39063rem;height: 0.78125rem;}
+.car-alert-item img{width: 0.78125rem;}
+.alert-num-array{background: url('../../../images/obd/right_array.png') no-repeat right;background-size: 0.3125rem;}
+.alert-num{border-radius:50%;background: #FF8780;text-align: center;color: #ffffff;position: relative;right: 0.625rem;top: 0.07813rem;clear:both;width: 0.625rem;height: 0.625rem;float: right;text-indent: -1px;line-height: 0.625rem;font-size: 0.375rem;}
+.alert-detail{line-height: 0.78125rem;text-indent: 0.3125rem;font-size: 0.4375rem;}

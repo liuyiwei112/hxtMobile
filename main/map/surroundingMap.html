@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1,user-scalable=no">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="#FC3434">
+		<link rel="stylesheet" href="../../css/mui.min.css" />
+		<link rel="stylesheet" href="../../js/common/swiper/css/swiper.min.css" />
+		<link rel="stylesheet" href="css/surroundingMap.css" />
+		<title></title>
+		<script type="text/javascript" src="../../js/common/jquery.js"></script>
+		<script type="text/javascript" src="../../js/common/ai-base.js"></script>
+		<script type="text/javascript" src="../../js/mui.min.js" ></script>
+		<script type="text/javascript" src="js/surroundingMap.js"></script>
+	</head>
+
+	<body>
+		<div class="x-panel-top">
+			<div class="x-panel-top-left" onclick="mui.back()">
+				<span class="left-icon"></span>
+			</div>
+			<div class="x-panel-top-center">
+				<div class="x-title-bar">
+
+				</div>
+			</div>
+			<div class="x-panel-top-right">
+			</div>
+		</div>
+		<div class="x-panel-content">
+			<div class="map-area" id="map_area"> </div>
+
+			<div class="distance-area">
+				<span mile="1000">1000km</span>
+				<span class="check" mile="3000">3000km</span>
+				<span mile="5000">5000km</span>
+			</div>
+
+			<div class="poi-panel">
+				<div class="swiper-container">
+					<div class="swiper-wrapper">
+					</div>
+					<div class="swiper-pagination"></div>
+				</div>
+
+			</div>
+			<div class="poi-detal-model hide">
+				<div class="poi-name word-break">XXXX</div>
+				<div class="poi-address word-break poi-text">XXXX</div>
+				<div class="poi-tel poi-text word-break" style="padding-bottom: 0.1rem;">暂无联系方式</div>
+				<div class="poi-button-area">
+					<div class="fl width50 poi-button tel-phone">电话联系</div>
+					<div class="fl width50 poi-button bd-left1 poi-button-go" onClick="doRouterDesign()">到这去</div>
+				</div>
+			</div>
+
+			<div class="pop-up height100 width100 hide">
+				<div class="pop-up-panel">
+					<div class="pop-up-panel-title">
+						请选择即将使用的地图
+						<div class="pop-up-panel-close" onclick="javascript:_tl.hide($('.pop-up'))">
+							<span class="mui-icon mui-icon-closeempty"></span>
+						</div>
+					</div>
+					<div class="pop-up-panel-body">
+						<ul class="mui-table-view">
+							<li class="mui-table-view-cell">
+								<a class="mui-navigate-right">高德地图</a>
+							</li>
+							<li class="mui-table-view-cell">
+								<a class="mui-navigate-right">百度地图</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div class="pop-up-mask"></div>
+			</div>
+
+		</div>
+
+	</body>
+
+</html>

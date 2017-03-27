@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="#fc3434">
+		<link rel="stylesheet" href="../js/common/swiper/css/swiper.min.css" />
+		<link rel="stylesheet" href="../css/mui.min.css" />
+		<link rel="stylesheet" href="../css/mui/icons-extra.css" />
+		<link rel="stylesheet" href="css/index.css" />
+		<title></title>
+		<script type="text/javascript" src="../js/common/jquery.js"></script>
+		<script type="text/javascript" src="../js/common/ai-base.js" ></script>
+		<script type="text/javascript" src="../js/mui.min.js" ></script>
+		<script type="text/javascript" src="js/index.js"></script>
+		<style>
+			img{vertical-align: top;}
+			.menu-item{width: 25%;padding-bottom: 0.2rem;}
+			.menu-item .menu-image{margin-bottom: 0.05rem;}
+			.car-status-list .flex-element-no-padding{width: 25%;}
+			.car-info > .flex-element{width: 50%;}
+			.top-info-area > .flex-element{width: 33.3%;}
+			.ad-panel .flex-element-no-padding{width: 50%;}
+			.activities-content > .flex-element-no-padding{width: 33.3%;}
+			.product-content > .flex-element{width: 50%;}
+		</style>
+	</head>
+
+	<body>
+		<div class="x-panel-content-full" style="margin-top: 0;">
+			<div class="banner">
+				<div class="content-top-info">
+					<div class="top-info-area flex-div">
+						<div class="flex-element">
+							<label class="city">南京</label>
+							<span class="mui-icon mui-icon-arrowdown"></span>
+						</div>
+						<div class="flex-element detail-weather">
+							<label class="mui-icon-weather"><label class="temp-value">20</label>℃</label>
+							<span class="mui-icon mui-icon-arrowdown weather-icon"></span>
+						</div>
+						<div class="flex-element">
+							<span class="mui-icon icon search-icon fr"></span>
+
+						</div>
+					</div>
+					<div class="temp-div flex-div" style="display: none;">
+						<div class="flex-element width33"><label class="min-temp-value">0</label> ~ <label class="max-temp-value">30</label>℃ <label class="temp-class">阴</label> </div>
+						<div class="flex-element text-center width33">空气：<label class="air-qua">良</label> </div>
+						<div class="flex-element text-right width33"><label class="is-fit-wash">适宜洗车</label></div>
+					</div>
+				</div>
+
+				<div class="swiper-container banner-swiper">
+					<div class="swiper-wrapper">
+						<div class="swiper-slide">
+							<img src="../images/temp/banner1.png" />
+						</div>
+						<div class="swiper-slide">
+							<img src="../images/temp/banner2.png" />
+						</div>
+						<div class="swiper-slide">
+							<img src="../images/temp/banner3.png" />
+						</div>
+					</div>
+					<div class="swiper-pagination banner-pager" style="bottom:20px"></div>
+				</div>
+			</div>
+
+			<div class="menu-items">
+
+				<div class="swiper-container menu">
+					<div class="swiper-wrapper">
+
+					</div>
+					<div class="swiper-pagination menu-pager"></div>
+				</div>
+
+				<!--<div class="flex-div mg-none-t">
+					<div class="menu-item flex-element">
+						<div class="menu-image"><img src="../images/menus/menu01.png" /> </div>
+						<div class="menu-text">洗车</div>
+					</div>
+					<div class="menu-item flex-element">
+						<div class="menu-image"><img src="../images/menus/menu02.png" /> </div>
+						<div class="menu-text">轮胎</div>
+					</div>
+					<div class="menu-item flex-element">
+						<div class="menu-image"><img src="../images/menus/menu03.png" /> </div>
+						<div class="menu-text">保养</div>
+					</div>
+					<div class="menu-item flex-element">
+						<div class="menu-image"><img src="../images/menus/menu04.png" /> </div>
+						<div class="menu-text">电瓶</div>
+					</div>
+				</div>
+				<div class="flex-div">
+					<div class="menu-item flex-element">
+						<div class="menu-image"><img src="../images/menus/menu05.png" /> </div>
+						<div class="menu-text">周边加油</div>
+					</div>
+					<div class="menu-item flex-element">
+						<div class="menu-image"><img src="../images/menus/menu06.png" /> </div>
+						<div class="menu-text">周边停车</div>
+					</div>
+					<div class="menu-item flex-element">
+						<div class="menu-image"><img src="../images/menus/menu07.png" /> </div>
+						<div class="menu-text">违章查询</div>
+					</div>
+					<div class="menu-item flex-element">
+						<div class="menu-image"><img src="../images/menus/menu08.png" /> </div>
+						<div class="menu-text">全部工具</div>
+					</div>
+				</div>-->
+
+			</div>
+
+			<div class="blue-line-007"></div>
+
+			<div class="car-info flex-div">
+				<div class="flex-element width50">
+					<div class="car-brand-img">
+					</div>
+					<div class="car-base-info height100">
+						<div class="car-no height50">苏A88888</div>
+						<div class="car-type height50">2.0T 2015年</div>
+					</div>
+				</div>
+				<div class="flex-element car-info-right width50">
+					<div class="car-status-list flex-div height50">
+						<div class="flex-element-no-padding fault-icon">
+							<img src="../images/obd_home_safe1.png" />
+						</div>
+						<div class="flex-element-no-padding temp-icon">
+							<img src="../images/obd_home_safe2.png" />
+						</div>
+						<div class="flex-element-no-padding idling-icon">
+							<img src="../images/obd_home_safe3.png" />
+						</div>
+						<div class="flex-element-no-padding all-alert-icon">
+							<img src="../images/obd_home_safe4.png" />
+						</div>
+					</div>
+					<div class="car-mile-info flex-div height50">
+						<div class="car-mile flex-element-no-padding">
+							<label class="now-mile-text">20000</label><label class="unit">km</label>
+						</div>
+						<div class="car-first-date flex-element-no-padding">
+							<label class="next-date-text">2016-04</label>
+						</div>
+					</div>
+
+				</div>
+			</div>
+			<div class="gray-line-007"></div>
+
+			<div class="ad-panel">
+				<div class="flex-div">
+					<div class="flex-element-no-padding bd-bottom1 fl width50">
+						<img src="../images/ad04.png" />
+					</div>
+					<div class="flex-element-no-padding bd-left1 fr width50">
+						<div class="height50 bd-bottom1">
+							<img src="../images/ad05.png" />
+						</div>
+						<div class="height50 bd-bottom1">
+							<img src="../images/ad06.png" />
+						</div>
+					</div>
+				</div>
+				<div class="flex-div">
+					<div class="flex-element-no-padding">
+						<img src="../images/ad07.png" />
+					</div>
+					<div class="flex-element-no-padding bd-left1">
+						<img src="../images/ad08.png" />
+					</div>
+				</div>
+
+			</div>
+
+			<div class="product-table">
+				<table>
+					<tr>
+						<td class="width20">
+							<div class="width100 product-img">
+								<img src="../images/product/01.png" />
+							</div>
+							<div class="width100 product-text">保养机油</div>
+						</td>
+						<td class="width20">
+							<div class="width100 product-img">
+								<img src="../images/product/02.png" />
+							</div>
+							<div class="width100 product-text">清洁用品</div>
+						</td>
+						<td class="width20">
+							<div class="width100 product-img">
+								<img src="../images/product/03.png" />
+							</div>
+							<div class="width100 product-text">车载电器</div>
+						</td>
+						<td class="width20">
+							<div class="width100 product-img">
+								<img src="../images/product/04.png" />
+							</div>
+							<div class="width100 product-text">安全自驾</div>
+						</td>
+						<td class="width20">
+							<div class="width100 product-img">
+								<img src="../images/product/05.png" />
+							</div>
+							<div class="width100 product-text">空气净化器</div>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<div class="width100 product-img">
+								<img src="../images/product/06.png" />
+							</div>
+							<div class="width100 product-text">智能终端</div>
+						</td>
+						<td class="pro-center" colspan="3">
+							<img src="../images/product/product_center.png" />
+						</td>
+						<td>
+							<div class="width100 product-img">
+								<img src="../images/product/07.png" />
+							</div>
+							<div class="width100 product-text">保养包</div>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<div class="width100 product-img">
+								<img src="../images/product/08.png" />
+							</div>
+							<div class="width100 product-text">行车记录仪</div>
+						</td>
+						<td>
+							<div class="width100 product-img">
+								<img src="../images/product/13.png" />
+							</div>
+							<div class="width100 product-text">胎压监测</div>
+						</td>
+						<td>
+							<div class="width100 product-img">
+								<img src="../images/product/14.png" />
+							</div>
+							<div class="width100 product-text">刹车片</div>
+						</td>
+						<td>
+							<div class="width100 product-img">
+								<img src="../images/product/15.png" />
+							</div>
+							<div class="width100 product-text">防冻液</div>
+						</td>
+						<td>
+							<div class="width100 product-img">
+								<img src="../images/product/12.png" />
+							</div>
+							<div class="width100 product-text">更多</div>
+						</td>
+					</tr>
+				</table>
+			</div>
+			<div class="gray-blank5"></div>
+
+			<div class="width100">
+				<img src="../images/ad03.png" width="100%" />
+			</div>
+
+			<div class="activities-panel">
+				<div class="banner-title"></div>
+				<div class="activities-content flex-div">
+					<div class="flex-element-no-padding">
+						<img src="../images/product/j01.png" />
+					</div>
+					<div class="flex-element-no-padding">
+						<img src="../images/product/j02.png" />
+					</div>
+					<div class="flex-element-no-padding">
+						<img src="../images/product/j03.png" />
+					</div>
+				</div>
+			</div>
+
+			<div class="product-panel">
+				<div class="banner-title"></div>
+				<div class="product-content flex-div">
+					<div class="flex-element bd-right">
+						<div class="product-img">
+							<img src="../images/product-demo.png" />
+						</div>
+						<div class="product-text">嘉实多(Castrol)磁护5W—40 4L合成机油润滑油</div>
+					</div>
+					<div class="flex-element bd-left">
+						<div class="product-img">
+							<img src="../images/product-demo.png" />
+						</div>
+						<div class="product-text">嘉实多(Castrol)磁护5W—40 4L合成机油润滑油</div>
+					</div>
+				</div>
+				<div class="product-content flex-div">
+					<div class="flex-element bd-right">
+						<div class="product-img">
+							<img src="../images/product-demo.png" />
+						</div>
+						<div class="product-text">嘉实多(Castrol)磁护5W—40 4L合成机油润滑油</div>
+					</div>
+					<div class="flex-element bd-left">
+						<div class="product-img">
+							<img src="../images/product-demo.png" />
+						</div>
+						<div class="product-text">嘉实多(Castrol)磁护5W—40 4L合成机油润滑油</div>
+					</div>
+				</div>
+			</div>
+
+		</div>
+
+		<div class="x-panel-bottom flex-div">
+			<div class="menu-item flex-element">
+				<span class="mui-icon mui-icon-home font3"></span>
+				<div class="menu-text font3">首页</div>
+			</div>
+			<div class="menu-item flex-element" onclick="au.toUrl('mallhome.html')">
+				<span class="mui-icon-extra mui-icon-extra-cart"></span>
+				<div class="menu-text">车品</div>
+			</div>
+			<div class="menu-item flex-element" onclick="au.toUrl('community.html')">
+				<span class="mui-icon mui-icon-navigate"></span>
+				<div class="menu-text">社区</div>
+			</div>
+			<div class="menu-item flex-element" onclick="au.toUrl('my.html')">
+				<span class="mui-icon-extra mui-icon-extra-people"></span>
+				<div class="menu-text">我的</div>
+			</div>
+		</div>
+
+	</body>
+
+</html>

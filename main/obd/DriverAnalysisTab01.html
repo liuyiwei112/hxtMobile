@@ -1,0 +1,121 @@
+<link rel="stylesheet" href="css/DriverAnalysisTab01.css" />
+<div class="common-title2">
+	<label class="common-title2-marker"></label>
+	<label class="common-title2-text">安全得分</label>
+</div>
+<div class="driver-total-score width100">
+	<div class="driver-total-score-label">您本次驾驶安全得分</div>
+	<div class="driver-total-score-point driver-normal-score-point font3">96</div>
+</div>
+<div class="total-area bg1 width100">
+	<table class="width100">
+		<tr>
+			<td class="width50">
+				<div class="fl lable-icon lable-icon1 width60 height100" icon-left="../../images/icons/obd_dt_info_icon1.png" icon-width="30">急转弯</div>
+				<div class="fr text-field text-right width40 height100">
+					<label class="sharp-turn-text">0</label>
+					<label class="unit">次</label>
+				</div>
+			</td>
+			<td class="width50">
+				<div class="fl lable-icon lable-icon2 width70 height100">急加速</div>
+				<div class="fr text-right width30 height100">
+					<label class="num-count sharp-speedup-text">3</label>
+					<label class="unit">次</label>
+				</div>
+			</td>
+		</tr>
+		<tr>
+			<td class="width50">
+				<div class="fl lable-icon lable-icon3 width60 height100">急变道</div>
+				<div class="fr text-right width40 height100">
+					<label class="sharp-change-text">0</label>
+					<label class="unit">次</label>
+				</div>
+			</td>
+			<td class="width50">
+				<div class="fl lable-icon lable-icon4 width70 height100">急刹车</div>
+				<div class="fr text-right width30 height100">
+					<label class="num-count sharp-speeddown-text">1</label>
+					<label class="unit">次</label>
+				</div>
+			</td>
+		</tr>
+		<tr>
+			<td class="width100" colspan="2">
+				<div class="fl lable-icon lable-icon5 width50 height100">疲劳驾驶</div>
+				<div class="fl width50 height100">
+					<label class="driver-overtime-text">00:14:43</label>
+				</div>
+			</td>
+		</tr>
+		<tr>
+			<td class="width100" colspan="2">
+				<div class="fl lable-icon lable-icon6 width50 height100">超速时长(>120)</div>
+				<div class="fl width50 height100">
+					<label class="driver-overspeed-text">00:14:43</label>
+				</div>
+			</td>
+		</tr>
+	</table>
+</div>
+<div class="gray-blank10"></div>
+<div class="map-area bg1">
+	<div class="common-title2">
+		<label class="common-title2-marker"></label>
+		<label class="common-title2-text">行车轨迹 <label class="unit">(点击地图可查看详细轨迹)</label></label>
+	</div>
+	<div class="driver-map-container" id="driver_map_container" />
+	<div class="blank5" />
+</div>
+<div class="gray-blank10"></div>
+<div class="driver-data-area">
+	<div class="common-title2">
+		<label class="common-title2-marker"></label>
+		<label class="common-title2-text">常规数据</label>
+	</div>
+	<div class="driver-data-field">
+		<div class="driver-data-item">
+			<div class="driver-data-icon icon1">驾驶时长</div>
+			<div class="driver-data-text bg1">
+				<label class="driver-data-text1">00:53:01</label>
+			</div>
+		</div>
+		<div class="driver-data-item">
+			<div class="driver-data-icon icon2">总里程</div>
+			<div class="driver-data-text bg1">
+				<label class="driver-data-text2">34.3</label>
+				<label class="unit">km</label>
+			</div>
+		</div>
+		<div class="driver-data-item">
+			<div class="driver-data-icon icon3">平均速度</div>
+			<div class="driver-data-text bg1">
+				<label class="driver-data-text3">45</label>
+				<label class="unit">km/h</label>
+			</div>
+		</div>
+		<div class="driver-data-item">
+			<div class="driver-data-icon icon4">总油耗</div>
+			<div class="driver-data-text bg1">
+				<label class="driver-data-text4">1.22</label>
+				<label class="unit">L</label>
+			</div>
+		</div>
+		<div class="driver-data-item">
+			<div class="driver-data-icon icon5">平均油耗</div>
+			<div class="driver-data-text bg1">
+				<label class="driver-data-text5">5.8</label>
+				<label class="unit">L/100km</label>
+			</div>
+		</div>
+		<div class="driver-data-item">
+			<div class="driver-data-icon icon6">总花费</div>
+			<div class="driver-data-text bg1">
+				<label class="driver-data-text6">7.8</label>
+				<label class="unit">元</label>
+			</div>
+		</div>
+	</div>
+</div>
+<script type="text/javascript" src="js/DriverAnalysisTab01.js"></script>

@@ -1,0 +1,9 @@
+@import url("../../../css/common/base.css");
+
+.tap-not-checked{width: 33.3%;}
+.summary-panel{margin: 0.4rem 0;width: 96%;margin-top: 0.4rem;margin-left: 2%;}
+.summary-top{height: 1.2rem;background: url(../../../images/tools/illegal-top.png) no-repeat;background-size: 100%;text-align: center;font-size: 0.44rem;color: #666666;line-height: 1.1rem;}
+.total-area{border: 1px #c8c7cc solid;border-radius: 0.2rem;box-shadow: 0px 0px 0.2rem #dddddd;margin-bottom: 0.4rem;}
+.total-area table{border-top: 0;}
+.total-area td{padding: 0rem 0.3rem;}
+.order-date{padding: 0.5rem 0.4rem;background: #ffffff;}

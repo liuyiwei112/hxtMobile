@@ -1,0 +1,66 @@
+@import url("../../css/common/base.css");
+
+.banner{background: #F3F3F3;}
+.swiper-pagination-bullet{background: #ffffff;opacity: 0.8;}
+.swiper-pagination-bullet-active{opacity: 1;background: #fc3434;}
+
+.menu-items .swiper-slide{padding-bottom: 0.2rem;}
+.menu-items .swiper-pagination-bullets{bottom: 0rem !important;}
+.menu-items .swiper-pagination-bullet{background: #999999;}
+.menu-items .swiper-pagination-bullet-active{background: #fc3434;}
+
+.ios-body .content-top-info{padding-top: 0.73rem;}
+.content-top-info{position: fixed;width: 100%;line-height: 0.8rem;z-index: 9;padding-top: 0.2rem;}
+.content-top-info .city{font-size: 0.44rem;color: #ffffff;}
+.content-top-info .mui-icon{font-size: 0.5rem;color: #ffffff;}
+.content-top-info .mui-icon-weather{background-position:left;background-repeat: no-repeat;background-image: url(../../images/clockweather_w2.png);background-size: 0.7rem;display: inline-block;height: 100%;text-indent: 0.8rem;color: #ffffff;font-size: 0.44rem;}
+.content-top-info .search-icon{margin-top: 0.1rem;}
+
+.temp-div{width: 100%;line-height: 0.8rem;color: #ffffff;font-size: 0.36rem;}
+
+.swiper-slide img{width: 100%;}
+.menu-items{padding: 0.3rem;}
+.menu-items .flex-div{margin-bottom: 0.3rem;}
+.menu-items .menu-image{height: 1.3rem;}
+.menu-items .menu-image img{width: 1.3rem;}
+.menu-items .menu-text{color: #666666;}
+.car-info{width: 100%;padding: 0.15rem 0;height: 1.9rem;}
+.car-info .car-brand-img{position: absolute;width: 1.5rem;height: 1.5rem;background-size: 80%;background-position: center;background-repeat: no-repeat;background-image: url(../../images/obd_vehicle_brand_main_benz.png);}
+.car-info .car-base-info{margin-left: 1.65rem;height: 1.6rem;}
+.car-info .car-base-info .car-no{line-height: 0.9rem;color: #333333;font-size: 0.48rem;font-weight: 600;}
+.car-info .car-base-info .car-type{line-height: 0.8rem;font-size: 0.4rem;color: #666666;}
+
+.car-info .car-info-right{height: 1.6rem;}
+.car-info .car-status-list img{width: 0.75rem;display: block;margin-top: 0.1rem;}
+.car-info .car-mile-info label{color: #999999;font-size: 0.35rem;}
+.car-info .car-mile-info .car-mile{background: url(../../images/car_mile_icon.png) left no-repeat;background-size: 0.4rem;text-indent: 0.5rem;line-height: 0.85rem;}
+.car-info .car-mile-info .car-first-date{background: url(../../images/car_time_icon.png) left no-repeat;background-size: 0.4rem;text-indent: 0.5rem;line-height: 0.85rem;margin-left: 0.1rem;}
+
+.ad-panel img{width: 100%;}
+
+.product-table{width: 100%;}
+.product-table table{border-top:1px #e3e3e3 solid ;width: 100%;}
+.product-table td {border-right: 1px #e3e3e3 solid; border-bottom: 1px #e3e3e3 solid; padding: 0;text-align: center;}
+.product-table td:last-child{border-right: 0;}
+.product-table .product-img{height: 0.9rem;} 
+.product-table .product-img img {width: 45%;display: block;margin: 0 auto;margin-top: 0.1rem;}
+.product-table .product-text {font-size: 0.32rem; color: #4C4C4C;line-height: 0.7rem;}
+.product-table .pro-center img{display: block;margin: 0 auto;width: 100%}
+
+.activities-panel img{width: 100%;}
+.activities-panel .banner-title{height: 0.8rem;background: url(../../images/home-activities.png) no-repeat center;background-size:100%;}
+
+.product-panel .banner-title{height: 0.8rem;background: url(../../images/home-product.png) no-repeat center;background-size:100%;}
+.product-panel .product-content img{width: 3rem;}
+.product-panel .product-img{text-align: center;padding: 0.2rem;padding-top: 0.5rem;}
+.product-panel .product-text{font-size: 0.4rem;color: #666666;}
+.product-content .bd-left{border-left:2px #f8f8f8 solid;border-bottom: 4px #f8f8f8 solid;}
+.product-content .bd-right{border-right:2px #f8f8f8 solid;border-bottom: 4px #f8f8f8 solid;}
+
+
+.x-panel-bottom{background: #eeeeee;opacity: 0.9;padding-top: 0.15rem;}
+.x-panel-bottom .menu-item{padding-bottom: 0;}
+.x-panel-bottom .menu-item span{font-size: 0.7rem;}
+.x-panel-bottom .menu-image{height: 0.6rem;}
+.x-panel-bottom .menu-image img{width: 0.6rem;}
+

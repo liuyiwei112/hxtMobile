@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1,user-scalable=no">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="#FC3434">
+		<link rel="stylesheet" href="../../css/mui.min.css" />
+		<link rel="stylesheet" href="css/xubao.css" />
+		<title></title>
+		<script type="text/javascript" src="../../js/common/jquery.js"></script>
+		<script type="text/javascript" src="../../js/common/ai-base.js"></script>
+		<script type="text/javascript" src="../../js/mui.min.js" ></script>
+		<script type="text/javascript" src="js/xubao.js"></script>
+	</head>
+
+	<body>
+		<div class="x-panel-top">
+			<div class="x-panel-top-left" onclick="mui.back()">
+				<span class="left-icon"></span>
+			</div>
+			<div class="x-panel-top-center">
+				<div class="x-title-bar">
+					续保计算
+				</div>
+			</div>
+			<div class="x-panel-top-right">
+
+			</div>
+
+		</div>
+		<div class="x-panel-content">
+			<div class="blank2"></div>
+			<div class="mui-input-row">
+				<input type="number" id="buy_money" class="mui-input-clear" placeholder="新车购置价" maxlength="8">
+			</div>
+			<div class="blank2"></div>
+			<div class="gray-blank5"></div>
+			<div class="common-title2">
+				<label class="common-title2-marker"></label>
+				<label class="common-title2-text">上年出险次数</label>
+			</div>
+			<div class="last-insurance-panel panel">
+				<ul class="width100">
+					<li class="select" iden="60">三年未出</li>
+					<li iden="70">二年未出</li>
+					<li iden="85">一年未出</li>
+					<li iden="100">出险1次</li>
+					<li iden="125">出险2次</li>
+					<li iden="150">出险3次</li>
+					<li iden="175">出险4次</li>
+					<li iden="200">出险5次</li>
+				</ul>
+			</div>
+			<div class="gray-blank5"></div>
+			<div class="common-title2">
+				<label class="common-title2-marker"></label>
+				<label class="common-title2-text">购买险种</label>
+			</div>
+			<div class="panel">
+				<ul class="width100">
+					<li class="li-item jiaoqiang">
+						<div class="li-item-element width10 item-check item-checked"></div>
+						<div class="li-item-element insurance-name">交强险</div>
+						<div class="li-item-element insurance-serial" relate="car-person" iden="1">
+							6座以下
+						</div>
+						<div class="li-item-element insurance-total">
+							<label></label><label class="unit">元</label>
+						</div>
+					</li>
+					<li class="li-item third">
+						<div class="li-item-element width10 item-check item-checked"></div>
+						<div class="li-item-element insurance-name">第三者责任险</div>
+						<div class="li-item-element insurance-serial" relate="third-party" iden="100">
+							100万
+						</div>
+						<div class="li-item-element insurance-total">
+							<label></label><label class="unit">元</label>
+						</div>
+					</li>
+					<li class="li-item chesun">
+						<div class="li-item-element width10 item-check item-checked"></div>
+						<div class="li-item-element insurance-name">车辆损失险</div>
+						<div class="li-item-element insurance-serial bg-none"></div>
+						<div class="li-item-element insurance-total">
+							<label></label><label class="unit">元</label>
+						</div>
+					</li>
+					<li class="li-item daoqiang">
+						<div class="li-item-element width10 item-check item-checked"></div>
+						<div class="li-item-element insurance-name">全车盗抢险</div>
+						<div class="li-item-element insurance-serial bg-none"></div>
+						<div class="li-item-element insurance-total">
+							<label></label><label class="unit">元</label>
+						</div>
+					</li>
+					<li class="li-item bolips">
+						<div class="li-item-element width10 item-check"></div>
+						<div class="li-item-element insurance-name">玻璃单独破碎险</div>
+						<div class="li-item-element insurance-serial" relate="boli" iden="1">国产</div>
+						<div class="li-item-element insurance-total">
+							<label></label><label class="unit">元</label>
+						</div>
+					</li>
+					<li class="li-item ziran">
+						<div class="li-item-element width10 item-check"></div>
+						<div class="li-item-element insurance-name">自燃损失险</div>
+						<div class="li-item-element insurance-serial bg-none"></div>
+						<div class="li-item-element insurance-total">
+							<label></label><label class="unit">元</label>
+						</div>
+					</li>
+					<li class="li-item bjmp">
+						<div class="li-item-element width10 item-check item-checked"></div>
+						<div class="li-item-element insurance-name">不计免赔特约险</div>
+						<div class="li-item-element insurance-serial bg-none"></div>
+						<div class="li-item-element insurance-total">
+							<label></label><label class="unit">元</label>
+						</div>
+					</li>
+					<li class="li-item wgzr">
+						<div class="li-item-element width10 item-check"></div>
+						<div class="li-item-element insurance-name">无过责任险</div>
+						<div class="li-item-element insurance-serial bg-none"></div>
+						<div class="li-item-element insurance-total">
+							<label></label><label class="unit">元</label>
+						</div>
+					</li>
+					<li class="li-item csry">
+						<div class="li-item-element width10 item-check"></div>
+						<div class="li-item-element insurance-name">车上人员责任险</div>
+						<div class="li-item-element insurance-serial" relate="car-person2" iden="5">5人</div>
+						<div class="li-item-element insurance-total">
+							<label></label><label class="unit">元</label>
+						</div>
+					</li>
+					<li class="li-item huahen">
+						<div class="li-item-element width10 item-check"></div>
+						<div class="li-item-element insurance-name">车身划痕险</div>
+						<div class="li-item-element insurance-serial" relate="cheshen" iden="5">5千</div>
+						<div class="li-item-element insurance-total">
+							<label></label><label class="unit">元</label>
+						</div>
+					</li>
+				</ul>
+				<div class="blank10"></div>
+				<div class="blank10"></div>
+			</div>
+
+		</div>
+		<div class="x-panel-bottom">
+			<div class="fl width50 height100 bg2 total-font">
+				<div class="width100 height50">
+					<label>商业：</label><label class="font-red total-sum-sy" style="font-size: 0.44rem;">0</label><label class="unit">元</label>
+				</div>
+				<div class="width100 height50">
+					<label>合计：</label><label class="font-red total-sum" style="font-size: 0.5rem;">0</label><label class="unit">元</label>
+				</div>
+			</div>
+			<div class="fl width50 height100">
+				<div class="button button-red" onclick="calTotal()">开始计算</div>
+			</div>
+		</div>
+
+		<div class="pop-up hide">
+			<div class="pop-up-panel">
+				<div class="pop-up-panel-title">
+					<label></label>
+					<div class="pop-up-panel-close" onclick="javascript:hidePopup($('.pop-up'))">
+						<span class="mui-icon mui-icon-closeempty"></span> </div>
+				</div>
+				<div class="pop-up-panel-body">
+					<ul class="car-person">
+						<li class="li-item" iden="1">6座以下</li>
+						<li class="li-item" iden="2">6座以上</li>
+					</ul>
+					<ul class="third-party">
+						<li class="li-item" iden="5">5万</li>
+						<li class="li-item" iden="10">10万</li>
+						<li class="li-item" iden="20">20万</li>
+						<li class="li-item" iden="50">50万</li>
+						<li class="li-item" iden="100">100万</li>
+					</ul>
+					<ul class="boli">
+						<li class="li-item" iden="1">国产</li>
+						<li class="li-item" iden="2">进口</li>
+					</ul>
+					<ul class="car-person2">
+						<li class="li-item" iden="1">1人</li>
+						<li class="li-item" iden="2">2人</li>
+						<li class="li-item" iden="3">3人</li>
+						<li class="li-item" iden="4">4人</li>
+						<li class="li-item" iden="5">5人</li>
+						<li class="li-item" iden="6">6人</li>
+						<li class="li-item" iden="7">7人</li>
+					</ul>
+					<ul class="cheshen">
+						<li class="li-item" iden="2">2千</li>
+						<li class="li-item" iden="5">5千</li>
+						<li class="li-item" iden="10">1万</li>
+						<li class="li-item" iden="20">2万</li>
+					</ul>
+					<ul class="ins-num">
+						<li class="li-item">三年未出保费6折</li>
+						<li class="li-item">二年未出保费7折</li>
+						<li class="li-item">一年未出保费85折</li>
+						<li class="li-item">出险1次保费不打折</li>
+						<li class="li-item">出险2次保费上浮25%</li>
+						<li class="li-item">出险3次保费上浮50%</li>
+						<li class="li-item">出险4次保费上浮75%</li>
+						<li class="li-item">出险4次保费翻倍</li>
+					</ul>
+				</div>
+			</div>
+			<div class="pop-up-mask"></div>
+		</div>
+
+	</body>
+
+</html>

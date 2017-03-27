@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1,user-scalable=no">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<link rel="stylesheet" type="text/css" href="css/carAlertDetail.css" />
+		<title></title>
+		<script type="text/javascript" src="../../js/common/jquery.js"></script>
+		<script type="text/javascript" src="../../js/common/ai-base.js"></script>
+		<script type="text/javascript" src="../../js/mui.min.js" ></script>
+		<script type="text/javascript" src="js/carAlertDetail.js"></script>
+	</head>
+
+	<body>
+		<div class="x-panel-top">
+			<div class="x-panel-top-left" onclick="mui.back()">
+				<span class="left-icon"></span>
+			</div>
+			<div class="x-panel-top-center">
+				<div class="x-title-bar">
+					急减速告警
+				</div>
+			</div>
+			<div class="x-panel-top-right">
+
+			</div>
+
+		</div>
+		<div class="x-panel-content">
+			<div class="width100 height100 alert-map" id="alert_map" />
+		</div>
+		<div class="info-content hide">
+			<table class="width100">
+				<tr>
+					<td class="info-window-car-no font1 icon-left" style="background-image: url(../../images/obd/obd_safe_icon1.png);">车牌：</td>
+					<td>
+						<div class="text-car-no info-window-text word-break">苏A4G2Z2</div>
+					</td>
+				</tr>
+				<tr>
+					<td class="info-window-date font1 icon-left" style="background-image: url(../../images/obd/obd_safe_icon2.png);">时间：</td>
+					<td>
+						<div class="text-date info-window-text word-break">2016-03-03</div>
+					</td>
+				</tr>
+				<tr>
+					<td class="info-window-address font1 icon-left" style="background-image: url(../../images/obd/obd_safe_icon3.png);">地址:</td>
+					<td>
+						<div class="text-address info-window-text"></div>
+					</td>
+				</tr>
+			</table>
+		</div>
+	</body>
+
+</html>

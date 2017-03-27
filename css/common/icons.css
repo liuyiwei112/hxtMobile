@@ -1,0 +1,5 @@
+.icon{height: 0.5rem;width: 0.5rem;background-size: 100%;background-repeat: no-repeat;display: block;}
+.car-list-icon{background-image: url(../../images/car-list.png) ;}/*车辆列表*/
+.car-add-icon{background-image: url(../../images/car-add.png) ;}/*新增车辆*/
+.search-icon{background-image: url(../../images/search.png);}
+.call-center-icon{background-image: url(../../images/call-center.png);height: 0.6rem;width: 0.6rem;}

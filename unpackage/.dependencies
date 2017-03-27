@@ -1,0 +1,165 @@
+{
+  "main/obd/carAlertDetail.html": {
+    "href": "main/obd/carAlertDetail.html",
+    "resources": [
+      "css/common/icons.css",
+      "images/car-list.png",
+      "images/car-add.png",
+      "images/search.png",
+      "images/call-center.png",
+      "css/common/ai-ui.css",
+      "images/obd/obd_dialog_error.png",
+      "css/mui.min.css",
+      "fonts/mui.ttf",
+      "css/common/ios.css",
+      "images/non-image.png",
+      "images/right_array.png",
+      "js/common/ai-base.js"
+    ],
+    "priority": 0
+  },
+  "main/obd/carAlertList.html": {
+    "href": "main/obd/carAlertList.html",
+    "resources": [
+      "css/common/base.css",
+      "css/common/icons.css",
+      "images/car-list.png",
+      "images/car-add.png",
+      "images/search.png",
+      "images/call-center.png",
+      "css/common/ai-ui.css",
+      "images/loading.gif",
+      "css/mui.min.css",
+      "fonts/mui.ttf",
+      "css/common/ios.css",
+      "images/obd/obd_button_back.png",
+      "images/non-image.png",
+      "images/right_array.png",
+      "js/common/jquery.js",
+      "js/common/ai-base.js"
+    ],
+    "refer": [],
+    "priority": 0
+  },
+  "main/obd/carAlert.html": {
+    "href": "main/obd/carAlert.html",
+    "resources": [
+      "css/common/icons.css",
+      "images/car-list.png",
+      "images/car-add.png",
+      "images/search.png",
+      "images/call-center.png",
+      "css/common/ai-ui.css",
+      "images/loading.gif",
+      "images/obd/obd_dialog_error.png",
+      "css/mui.min.css",
+      "fonts/mui.ttf",
+      "images/non-image.png",
+      "images/right_array.png",
+      "js/common/ai-base.js",
+      "data/carAlert.json"
+    ],
+    "refer": [],
+    "priority": 0
+  },
+  "main/my.html": {
+    "href": "main/my.html",
+    "resources": [
+      "fonts/mui.ttf",
+      "css/mui/icons-extra.css",
+      "fonts/mui-icons-extra.ttf",
+      "css/common/icons.css",
+      "images/car-list.png",
+      "images/car-add.png",
+      "images/search.png",
+      "images/call-center.png",
+      "css/common/ai-ui.css",
+      "images/loading.gif",
+      "images/obd/obd_dialog_error.png",
+      "fonts/mui.ttf",
+      "images/non-image.png",
+      "js/common/ai-base.js"
+    ],
+    "refer": [
+      "main/index.html",
+      "main/mallhome.html",
+      "main/community.html"
+    ],
+    "priority": 4
+  },
+  "main/community.html": {
+    "href": "main/community.html",
+    "resources": [
+      "css/mui.min.css",
+      "fonts/mui.ttf",
+      "css/mui/icons-extra.css",
+      "fonts/mui-icons-extra.ttf",
+      "css/common/base.css",
+      "css/common/icons.css",
+      "images/car-list.png",
+      "images/car-add.png",
+      "images/search.png",
+      "images/call-center.png",
+      "css/common/ai-ui.css",
+      "images/loading.gif",
+      "images/obd/obd_dialog_error.png",
+      "css/mui.min.css",
+      "fonts/mui.ttf",
+      "css/common/ios.css",
+      "images/non-image.png",
+      "images/right_array.png",
+      "js/common/jquery.js",
+      "js/common/ai-base.js"
+    ],
+    "refer": [
+      "main/index.html",
+      "main/mallhome.html",
+      "main/my.html"
+    ],
+    "priority": 2
+  },
+  "main/mallhome.html": {
+    "href": "main/mallhome.html",
+    "resources": [
+      "css/mui.min.css",
+      "fonts/mui.ttf",
+      "css/mui/icons-extra.css",
+      "fonts/mui-icons-extra.ttf",
+      "css/common/base.css",
+      "css/common/icons.css",
+      "images/car-list.png",
+      "images/car-add.png",
+      "images/search.png",
+      "images/call-center.png",
+      "css/common/ai-ui.css",
+      "images/loading.gif",
+      "images/obd/obd_dialog_error.png",
+      "css/mui.min.css",
+      "fonts/mui.ttf",
+      "css/common/ios.css",
+      "images/obd/obd_button_back.png",
+      "images/non-image.png",
+      "images/right_array.png",
+      "js/common/jquery.js",
+      "js/common/ai-base.js"
+    ],
+    "refer": [
+      "main/index.html",
+      "main/community.html",
+      "main/my.html"
+    ],
+    "priority": 1
+  },
+  "main/index.html": {
+    "href": "main/index.html",
+    "resources": [
+      "images/car-add.png",
+      "images/call-center.png",
+      "images/obd/obd_dialog_error.png",
+      "images/obd/obd_button_back.png",
+      "images/right_array.png"
+    ],
+    "refer": [],
+    "priority": 0
+  }
+}
